@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-ios</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>false</ImplicitUsings>
+    <IsBindingProject>true</IsBindingProject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <PackageId>Tonestro.Maui.Amplitude.iOS</PackageId>
+    <Version>8.2.1.1</Version>
+    <Description>Contains bindings for https://developers.amplitude.com/docs/ios</Description>
+    <Authors>Christian Kapplmüller</Authors>
+    <Company>fun.music IT GmbH</Company>
+    <PackageOutputPath>nugetoutput</PackageOutputPath>
+    <PackageLicensePath>..\LICENSE.txt</PackageLicensePath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <NativeReference Include="nativelib\libAmplitude.a">
+      <Kind>Static</Kind>
+      <SmartLink>False</SmartLink>
+    </NativeReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
+  </ItemGroup>
+</Project>
