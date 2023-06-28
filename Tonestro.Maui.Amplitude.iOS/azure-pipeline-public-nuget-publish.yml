@@ -29,8 +29,8 @@ steps:
     cd Tonestro.Maui.Amplitude.iOS
     sudo dotnet workload restore
     dotnet restore
-    dotnet build --configuration=Release
-    dotnet pack --configuration=Release
+    dotnet build --configuration Release
+    dotnet pack --configuration Release
 
 - bash: |
     dotnet nuget push Tonestro.Maui.Amplitude.iOS/nugetoutput/Tonestro.Maui.Amplitude.iOS.*.nupkg -k "$(nugetOrgApiKey)" -s https://api.nuget.org/v3/index.json
