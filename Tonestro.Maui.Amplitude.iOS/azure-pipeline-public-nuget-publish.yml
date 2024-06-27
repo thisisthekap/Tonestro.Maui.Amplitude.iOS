@@ -30,12 +30,6 @@ steps:
   displayName: "select xcode version"
 
 - bash: |
-    cd native
-    ./create-xcframework.sh
-    cd ..
-  displayName: Create xcframework folder
-
-- bash: |
     sudo dotnet workload restore
   displayName: Restore workloads
 

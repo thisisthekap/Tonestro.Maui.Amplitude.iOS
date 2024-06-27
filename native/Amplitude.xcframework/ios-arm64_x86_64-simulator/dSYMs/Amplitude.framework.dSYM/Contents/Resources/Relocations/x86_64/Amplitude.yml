@@ -1,0 +1,424 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/ckapplmueller/Library/Caches/org.carthage.CarthageKit/DerivedData/15.2_15C500b/Amplitude-iOS/v8.2.1/Build/Products/Release-iphonesimulator/Amplitude.framework/Amplitude'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x58A80, size: 0x8, addend: 0x0, symName: _AmplitudeVersionString, symObjAddr: 0x0, symBinAddr: 0x131A0, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x58AB5, size: 0x8, addend: 0x0, symName: _AmplitudeVersionNumber, symObjAddr: 0x30, symBinAddr: 0x131D0, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x58AF2, size: 0x8, addend: 0x0, symName: '-[AMPRevenue init]', symObjAddr: 0x0, symBinAddr: 0x4470, symSize: 0x3C }
+  - { offsetInCU: 0x10C, offset: 0x58BD7, size: 0x8, addend: 0x0, symName: '-[AMPRevenue init]', symObjAddr: 0x0, symBinAddr: 0x4470, symSize: 0x3C }
+  - { offsetInCU: 0x143, offset: 0x58C0E, size: 0x8, addend: 0x0, symName: '+[AMPRevenue revenue]', symObjAddr: 0x3C, symBinAddr: 0x44AC, symSize: 0x22 }
+  - { offsetInCU: 0x186, offset: 0x58C51, size: 0x8, addend: 0x0, symName: '-[AMPRevenue isValidRevenue]', symObjAddr: 0x5E, symBinAddr: 0x44CE, symSize: 0xE }
+  - { offsetInCU: 0x1BB, offset: 0x58C86, size: 0x8, addend: 0x0, symName: '-[AMPRevenue setProductIdentifier:]', symObjAddr: 0x6C, symBinAddr: 0x44DC, symSize: 0x65 }
+  - { offsetInCU: 0x237, offset: 0x58D02, size: 0x8, addend: 0x0, symName: '-[AMPRevenue setQuantity:]', symObjAddr: 0xD1, symBinAddr: 0x4541, symSize: 0xD }
+  - { offsetInCU: 0x27A, offset: 0x58D45, size: 0x8, addend: 0x0, symName: '-[AMPRevenue setPrice:]', symObjAddr: 0xDE, symBinAddr: 0x454E, symSize: 0x1F }
+  - { offsetInCU: 0x2C1, offset: 0x58D8C, size: 0x8, addend: 0x0, symName: '-[AMPRevenue setRevenueType:]', symObjAddr: 0xFD, symBinAddr: 0x456D, symSize: 0x1F }
+  - { offsetInCU: 0x308, offset: 0x58DD3, size: 0x8, addend: 0x0, symName: '-[AMPRevenue setReceipt:]', symObjAddr: 0x11C, symBinAddr: 0x458C, symSize: 0x1F }
+  - { offsetInCU: 0x34F, offset: 0x58E1A, size: 0x8, addend: 0x0, symName: '-[AMPRevenue setEventProperties:]', symObjAddr: 0x13B, symBinAddr: 0x45AB, symSize: 0x31 }
+  - { offsetInCU: 0x3B7, offset: 0x58E82, size: 0x8, addend: 0x0, symName: '-[AMPRevenue toNSDictionary]', symObjAddr: 0x16C, symBinAddr: 0x45DC, symSize: 0x159 }
+  - { offsetInCU: 0x4FF, offset: 0x58FCA, size: 0x8, addend: 0x0, symName: '-[AMPRevenue productId]', symObjAddr: 0x2C5, symBinAddr: 0x4735, symSize: 0xA }
+  - { offsetInCU: 0x534, offset: 0x58FFF, size: 0x8, addend: 0x0, symName: '-[AMPRevenue price]', symObjAddr: 0x2CF, symBinAddr: 0x473F, symSize: 0xA }
+  - { offsetInCU: 0x569, offset: 0x59034, size: 0x8, addend: 0x0, symName: '-[AMPRevenue quantity]', symObjAddr: 0x2D9, symBinAddr: 0x4749, symSize: 0xA }
+  - { offsetInCU: 0x59E, offset: 0x59069, size: 0x8, addend: 0x0, symName: '-[AMPRevenue revenueType]', symObjAddr: 0x2E3, symBinAddr: 0x4753, symSize: 0xA }
+  - { offsetInCU: 0x5D3, offset: 0x5909E, size: 0x8, addend: 0x0, symName: '-[AMPRevenue receipt]', symObjAddr: 0x2ED, symBinAddr: 0x475D, symSize: 0xA }
+  - { offsetInCU: 0x608, offset: 0x590D3, size: 0x8, addend: 0x0, symName: '-[AMPRevenue properties]', symObjAddr: 0x2F7, symBinAddr: 0x4767, symSize: 0xA }
+  - { offsetInCU: 0x63D, offset: 0x59108, size: 0x8, addend: 0x0, symName: '-[AMPRevenue .cxx_destruct]', symObjAddr: 0x301, symBinAddr: 0x4771, symSize: 0x49 }
+  - { offsetInCU: 0x27, offset: 0x591A3, size: 0x8, addend: 0x0, symName: '+[AMPDatabaseHelper getDatabaseHelper]', symObjAddr: 0x0, symBinAddr: 0x47BA, symSize: 0x1B }
+  - { offsetInCU: 0x3A, offset: 0x591B6, size: 0x8, addend: 0x0, symName: '+[AMPDatabaseHelper getDatabaseHelper:]', symObjAddr: 0x1B, symBinAddr: 0x47D5, symSize: 0x15A }
+  - { offsetInCU: 0x64, offset: 0x591E0, size: 0x8, addend: 0x0, symName: '_getDatabaseHelper:._instances', symObjAddr: 0x104C0, symBinAddr: 0x1F380, symSize: 0x0 }
+  - { offsetInCU: 0x7A, offset: 0x591F6, size: 0x8, addend: 0x0, symName: '_getDatabaseHelper:.onceToken', symObjAddr: 0x104C8, symBinAddr: 0x1F388, symSize: 0x0 }
+  - { offsetInCU: 0x1BD, offset: 0x59339, size: 0x8, addend: 0x0, symName: _kDispatchQueueKey, symObjAddr: 0x3750, symBinAddr: 0x182E0, symSize: 0x0 }
+  - { offsetInCU: 0x274, offset: 0x593F0, size: 0x8, addend: 0x0, symName: '+[AMPDatabaseHelper getDatabaseHelper]', symObjAddr: 0x0, symBinAddr: 0x47BA, symSize: 0x1B }
+  - { offsetInCU: 0x308, offset: 0x59484, size: 0x8, addend: 0x0, symName: '___39+[AMPDatabaseHelper getDatabaseHelper:]_block_invoke', symObjAddr: 0x175, symBinAddr: 0x492F, symSize: 0x35 }
+  - { offsetInCU: 0x347, offset: 0x594C3, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper init]', symObjAddr: 0x1AA, symBinAddr: 0x4964, symSize: 0x14 }
+  - { offsetInCU: 0x396, offset: 0x59512, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper initWithInstanceName:]', symObjAddr: 0x1BE, symBinAddr: 0x4978, symSize: 0x208 }
+  - { offsetInCU: 0x5B2, offset: 0x5972E, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper dealloc]', symObjAddr: 0x3C6, symBinAddr: 0x4B80, symSize: 0x48 }
+  - { offsetInCU: 0x5F1, offset: 0x5976D, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper inDatabase:]', symObjAddr: 0x40E, symBinAddr: 0x4BC8, symSize: 0x107 }
+  - { offsetInCU: 0x719, offset: 0x59895, size: 0x8, addend: 0x0, symName: '___32-[AMPDatabaseHelper inDatabase:]_block_invoke', symObjAddr: 0x515, symBinAddr: 0x4CCF, symSize: 0x74 }
+  - { offsetInCU: 0x7EA, offset: 0x59966, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b48r, symObjAddr: 0x589, symBinAddr: 0x4D43, symSize: 0x42 }
+  - { offsetInCU: 0x81F, offset: 0x5999B, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48r, symObjAddr: 0x5CB, symBinAddr: 0x4D85, symSize: 0x33 }
+  - { offsetInCU: 0x856, offset: 0x599D2, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper inDatabaseWithStatement:block:]', symObjAddr: 0x5FE, symBinAddr: 0x4DB8, symSize: 0x13E }
+  - { offsetInCU: 0x9B5, offset: 0x59B31, size: 0x8, addend: 0x0, symName: '___51-[AMPDatabaseHelper inDatabaseWithStatement:block:]_block_invoke', symObjAddr: 0x73C, symBinAddr: 0x4EF6, symSize: 0xB8 }
+  - { offsetInCU: 0xB1A, offset: 0x59C96, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b56r, symObjAddr: 0x7F4, symBinAddr: 0x4FAE, symSize: 0x56 }
+  - { offsetInCU: 0xB5B, offset: 0x59CD7, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56r, symObjAddr: 0x84A, symBinAddr: 0x5004, symSize: 0x3A }
+  - { offsetInCU: 0xB9E, offset: 0x59D1A, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper execSQLString:SQLString:]', symObjAddr: 0x884, symBinAddr: 0x503E, symSize: 0x7C }
+  - { offsetInCU: 0xCCC, offset: 0x59E48, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper createTables]', symObjAddr: 0x900, symBinAddr: 0x50BA, symSize: 0xAE }
+  - { offsetInCU: 0xD34, offset: 0x59EB0, size: 0x8, addend: 0x0, symName: '___33-[AMPDatabaseHelper createTables]_block_invoke', symObjAddr: 0x9AE, symBinAddr: 0x5168, symSize: 0x1CC }
+  - { offsetInCU: 0xEBB, offset: 0x5A037, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40r, symObjAddr: 0xB7A, symBinAddr: 0x5334, symSize: 0x30 }
+  - { offsetInCU: 0xEF0, offset: 0x5A06C, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40r, symObjAddr: 0xBAA, symBinAddr: 0x5364, symSize: 0x27 }
+  - { offsetInCU: 0xF1B, offset: 0x5A097, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper upgrade:newVersion:]', symObjAddr: 0xBD1, symBinAddr: 0x538B, symSize: 0xDA }
+  - { offsetInCU: 0xFBD, offset: 0x5A139, size: 0x8, addend: 0x0, symName: '___40-[AMPDatabaseHelper upgrade:newVersion:]_block_invoke', symObjAddr: 0xCAB, symBinAddr: 0x5465, symSize: 0x220 }
+  - { offsetInCU: 0x1173, offset: 0x5A2EF, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper dropTables]', symObjAddr: 0xECB, symBinAddr: 0x5685, symSize: 0xAE }
+  - { offsetInCU: 0x11DD, offset: 0x5A359, size: 0x8, addend: 0x0, symName: '___31-[AMPDatabaseHelper dropTables]_block_invoke', symObjAddr: 0xF79, symBinAddr: 0x5733, symSize: 0x18C }
+  - { offsetInCU: 0x136D, offset: 0x5A4E9, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper resetDB:]', symObjAddr: 0x1105, symBinAddr: 0x58BF, symSize: 0x4C }
+  - { offsetInCU: 0x13F0, offset: 0x5A56C, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper deleteDB]', symObjAddr: 0x1151, symBinAddr: 0x590B, symSize: 0xA4 }
+  - { offsetInCU: 0x1487, offset: 0x5A603, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper addEvent:]', symObjAddr: 0x11F5, symBinAddr: 0x59AF, symSize: 0x1C }
+  - { offsetInCU: 0x14EB, offset: 0x5A667, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper addIdentify:]', symObjAddr: 0x1211, symBinAddr: 0x59CB, symSize: 0x1C }
+  - { offsetInCU: 0x154F, offset: 0x5A6CB, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper addEventToTable:event:]', symObjAddr: 0x122D, symBinAddr: 0x59E7, symSize: 0x166 }
+  - { offsetInCU: 0x169B, offset: 0x5A817, size: 0x8, addend: 0x0, symName: '___43-[AMPDatabaseHelper addEventToTable:event:]_block_invoke', symObjAddr: 0x1393, symBinAddr: 0x5B4D, symSize: 0x60 }
+  - { offsetInCU: 0x1780, offset: 0x5A8FC, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper getEvents:limit:]', symObjAddr: 0x13F3, symBinAddr: 0x5BAD, symSize: 0x1F }
+  - { offsetInCU: 0x17FD, offset: 0x5A979, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper getIdentifys:limit:]', symObjAddr: 0x1412, symBinAddr: 0x5BCC, symSize: 0x1F }
+  - { offsetInCU: 0x187A, offset: 0x5A9F6, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper getEventsFromTable:upToId:limit:]', symObjAddr: 0x1431, symBinAddr: 0x5BEB, symSize: 0x212 }
+  - { offsetInCU: 0x19C0, offset: 0x5AB3C, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x1643, symBinAddr: 0x5DFD, symSize: 0x16 }
+  - { offsetInCU: 0x19E5, offset: 0x5AB61, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x1659, symBinAddr: 0x5E13, symSize: 0xF }
+  - { offsetInCU: 0x1A10, offset: 0x5AB8C, size: 0x8, addend: 0x0, symName: '___53-[AMPDatabaseHelper getEventsFromTable:upToId:limit:]_block_invoke', symObjAddr: 0x1668, symBinAddr: 0x5E22, symSize: 0x220 }
+  - { offsetInCU: 0x1CA2, offset: 0x5AE1E, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32r, symObjAddr: 0x1888, symBinAddr: 0x6042, symSize: 0x17 }
+  - { offsetInCU: 0x1CCB, offset: 0x5AE47, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper insertOrReplaceKeyValue:value:]', symObjAddr: 0x18B2, symBinAddr: 0x6059, symSize: 0x39 }
+  - { offsetInCU: 0x1D3B, offset: 0x5AEB7, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper insertOrReplaceKeyLongValue:value:]', symObjAddr: 0x18EB, symBinAddr: 0x6092, symSize: 0x39 }
+  - { offsetInCU: 0x1DAB, offset: 0x5AF27, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper insertOrReplaceKeyValueToTable:key:value:]', symObjAddr: 0x1924, symBinAddr: 0x60CB, symSize: 0x1AD }
+  - { offsetInCU: 0x1F6F, offset: 0x5B0EB, size: 0x8, addend: 0x0, symName: '___62-[AMPDatabaseHelper insertOrReplaceKeyValueToTable:key:value:]_block_invoke', symObjAddr: 0x1AD1, symBinAddr: 0x6278, symSize: 0x110 }
+  - { offsetInCU: 0x20D2, offset: 0x5B24E, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56r, symObjAddr: 0x1BE1, symBinAddr: 0x6388, symSize: 0x4B }
+  - { offsetInCU: 0x211F, offset: 0x5B29B, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper deleteKeyFromTable:key:]', symObjAddr: 0x1C2C, symBinAddr: 0x63D3, symSize: 0x166 }
+  - { offsetInCU: 0x226B, offset: 0x5B3E7, size: 0x8, addend: 0x0, symName: '___44-[AMPDatabaseHelper deleteKeyFromTable:key:]_block_invoke', symObjAddr: 0x1D92, symBinAddr: 0x6539, symSize: 0x60 }
+  - { offsetInCU: 0x2316, offset: 0x5B492, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper getValue:]', symObjAddr: 0x1DF2, symBinAddr: 0x6599, symSize: 0x1C }
+  - { offsetInCU: 0x237A, offset: 0x5B4F6, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper getLongValue:]', symObjAddr: 0x1E0E, symBinAddr: 0x65B5, symSize: 0x1C }
+  - { offsetInCU: 0x23DE, offset: 0x5B55A, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper getValueFromTable:key:]', symObjAddr: 0x1E2A, symBinAddr: 0x65D1, symSize: 0x195 }
+  - { offsetInCU: 0x254A, offset: 0x5B6C6, size: 0x8, addend: 0x0, symName: '___43-[AMPDatabaseHelper getValueFromTable:key:]_block_invoke', symObjAddr: 0x1FBF, symBinAddr: 0x6766, symSize: 0x105 }
+  - { offsetInCU: 0x26B6, offset: 0x5B832, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48r, symObjAddr: 0x20C4, symBinAddr: 0x686B, symSize: 0x44 }
+  - { offsetInCU: 0x26F7, offset: 0x5B873, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper getEventCount]', symObjAddr: 0x2108, symBinAddr: 0x68AF, symSize: 0x19 }
+  - { offsetInCU: 0x2742, offset: 0x5B8BE, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper getIdentifyCount]', symObjAddr: 0x2121, symBinAddr: 0x68C8, symSize: 0x19 }
+  - { offsetInCU: 0x278D, offset: 0x5B909, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper getTotalEventCount]', symObjAddr: 0x213A, symBinAddr: 0x68E1, symSize: 0x3C }
+  - { offsetInCU: 0x27EE, offset: 0x5B96A, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper getEventCountFromTable:]', symObjAddr: 0x2176, symBinAddr: 0x691D, symSize: 0x10F }
+  - { offsetInCU: 0x28C6, offset: 0x5BA42, size: 0x8, addend: 0x0, symName: '___44-[AMPDatabaseHelper getEventCountFromTable:]_block_invoke', symObjAddr: 0x2285, symBinAddr: 0x6A2C, symSize: 0x34 }
+  - { offsetInCU: 0x2960, offset: 0x5BADC, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper removeEvents:]', symObjAddr: 0x22B9, symBinAddr: 0x6A60, symSize: 0x1C }
+  - { offsetInCU: 0x29C4, offset: 0x5BB40, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper removeIdentifys:]', symObjAddr: 0x22D5, symBinAddr: 0x6A7C, symSize: 0x1C }
+  - { offsetInCU: 0x2A28, offset: 0x5BBA4, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper removeEventsFromTable:maxId:]', symObjAddr: 0x22F1, symBinAddr: 0x6A98, symSize: 0x10E }
+  - { offsetInCU: 0x2AF4, offset: 0x5BC70, size: 0x8, addend: 0x0, symName: '___49-[AMPDatabaseHelper removeEventsFromTable:maxId:]_block_invoke', symObjAddr: 0x23FF, symBinAddr: 0x6BA6, symSize: 0x85 }
+  - { offsetInCU: 0x2BCA, offset: 0x5BD46, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper removeEvent:]', symObjAddr: 0x2484, symBinAddr: 0x6C2B, symSize: 0x1C }
+  - { offsetInCU: 0x2C2E, offset: 0x5BDAA, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper removeIdentify:]', symObjAddr: 0x24A0, symBinAddr: 0x6C47, symSize: 0x1C }
+  - { offsetInCU: 0x2C92, offset: 0x5BE0E, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper removeEventFromTable:eventId:]', symObjAddr: 0x24BC, symBinAddr: 0x6C63, symSize: 0x10E }
+  - { offsetInCU: 0x2D5E, offset: 0x5BEDA, size: 0x8, addend: 0x0, symName: '___50-[AMPDatabaseHelper removeEventFromTable:eventId:]_block_invoke', symObjAddr: 0x25CA, symBinAddr: 0x6D71, symSize: 0x85 }
+  - { offsetInCU: 0x2E34, offset: 0x5BFB0, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper getNthEventId:]', symObjAddr: 0x264F, symBinAddr: 0x6DF6, symSize: 0x1C }
+  - { offsetInCU: 0x2E98, offset: 0x5C014, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper getNthIdentifyId:]', symObjAddr: 0x266B, symBinAddr: 0x6E12, symSize: 0x1C }
+  - { offsetInCU: 0x2EFC, offset: 0x5C078, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper getNthEventIdFromTable:n:]', symObjAddr: 0x2687, symBinAddr: 0x6E2E, symSize: 0x11F }
+  - { offsetInCU: 0x2FE5, offset: 0x5C161, size: 0x8, addend: 0x0, symName: '___46-[AMPDatabaseHelper getNthEventIdFromTable:n:]_block_invoke', symObjAddr: 0x27A6, symBinAddr: 0x6F4D, symSize: 0x35 }
+  - { offsetInCU: 0x3067, offset: 0x5C1E3, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper databasePath]', symObjAddr: 0x27DB, symBinAddr: 0x6F82, symSize: 0xA }
+  - { offsetInCU: 0x309C, offset: 0x5C218, size: 0x8, addend: 0x0, symName: '-[AMPDatabaseHelper .cxx_destruct]', symObjAddr: 0x27E5, symBinAddr: 0x6F8C, symSize: 0x28 }
+  - { offsetInCU: 0x27, offset: 0x5CC61, size: 0x8, addend: 0x0, symName: '+[AMPUtils alloc]', symObjAddr: 0x0, symBinAddr: 0x6FC0, symSize: 0x8 }
+  - { offsetInCU: 0x6E, offset: 0x5CCA8, size: 0x8, addend: 0x0, symName: '+[AMPUtils alloc]', symObjAddr: 0x0, symBinAddr: 0x6FC0, symSize: 0x8 }
+  - { offsetInCU: 0xA1, offset: 0x5CCDB, size: 0x8, addend: 0x0, symName: '+[AMPUtils generateUUID]', symObjAddr: 0x8, symBinAddr: 0x6FC8, symSize: 0x3E }
+  - { offsetInCU: 0x18F, offset: 0x5CDC9, size: 0x8, addend: 0x0, symName: '+[AMPUtils makeJSONSerializable:]', symObjAddr: 0x46, symBinAddr: 0x7006, symSize: 0x55C }
+  - { offsetInCU: 0x5EC, offset: 0x5D226, size: 0x8, addend: 0x0, symName: '+[AMPUtils isEmptyString:]', symObjAddr: 0x5A2, symBinAddr: 0x7562, symSize: 0x78 }
+  - { offsetInCU: 0x68C, offset: 0x5D2C6, size: 0x8, addend: 0x0, symName: '+[AMPUtils coerceToString:withName:]', symObjAddr: 0x61A, symBinAddr: 0x75DA, symSize: 0x7A }
+  - { offsetInCU: 0x754, offset: 0x5D38E, size: 0x8, addend: 0x0, symName: '+[AMPUtils validateGroups:]', symObjAddr: 0x694, symBinAddr: 0x7654, symSize: 0x60E }
+  - { offsetInCU: 0xC37, offset: 0x5D871, size: 0x8, addend: 0x0, symName: '+[AMPUtils platformDataDirectory]', symObjAddr: 0xCA2, symBinAddr: 0x7C62, symSize: 0x58 }
+  - { offsetInCU: 0xCC0, offset: 0x5D8FA, size: 0x8, addend: 0x0, symName: '+[AMPUtils getSharedApplication]', symObjAddr: 0xCFA, symBinAddr: 0x7CBA, symSize: 0x66 }
+  - { offsetInCU: 0xD57, offset: 0x5D991, size: 0x8, addend: 0x0, symName: '+[AMPUtils barBottomOffset]', symObjAddr: 0xD60, symBinAddr: 0x7D20, symSize: 0x26 }
+  - { offsetInCU: 0xDA3, offset: 0x5D9DD, size: 0x8, addend: 0x0, symName: '+[AMPUtils statusBarHeight]', symObjAddr: 0xD86, symBinAddr: 0x7D46, symSize: 0x13E }
+  - { offsetInCU: 0xE75, offset: 0x5DAAF, size: 0x8, addend: 0x0, symName: '+[AMPUtils getKeyWindow]', symObjAddr: 0xEC4, symBinAddr: 0x7E84, symSize: 0x1EC }
+  - { offsetInCU: 0x27, offset: 0x5DC42, size: 0x8, addend: 0x0, symName: '+[AMPConfigManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x8070, symSize: 0x63 }
+  - { offsetInCU: 0x35, offset: 0x5DC50, size: 0x8, addend: 0x0, symName: '+[AMPConfigManager sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x8070, symSize: 0x63 }
+  - { offsetInCU: 0x5F, offset: 0x5DC7A, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0x31F0, symBinAddr: 0x1F390, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x5DC90, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x31F8, symBinAddr: 0x1F398, symSize: 0x0 }
+  - { offsetInCU: 0x1D7, offset: 0x5DDF2, size: 0x8, addend: 0x0, symName: '___34+[AMPConfigManager sharedInstance]_block_invoke', symObjAddr: 0x63, symBinAddr: 0x80D3, symSize: 0x32 }
+  - { offsetInCU: 0x22E, offset: 0x5DE49, size: 0x8, addend: 0x0, symName: '-[AMPConfigManager init]', symObjAddr: 0x95, symBinAddr: 0x8105, symSize: 0x56 }
+  - { offsetInCU: 0x279, offset: 0x5DE94, size: 0x8, addend: 0x0, symName: '-[AMPConfigManager refresh:]', symObjAddr: 0xEB, symBinAddr: 0x815B, symSize: 0x143 }
+  - { offsetInCU: 0x3B7, offset: 0x5DFD2, size: 0x8, addend: 0x0, symName: '___28-[AMPConfigManager refresh:]_block_invoke', symObjAddr: 0x22E, symBinAddr: 0x829E, symSize: 0x188 }
+  - { offsetInCU: 0x58A, offset: 0x5E1A5, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0x3B6, symBinAddr: 0x8426, symSize: 0x30 }
+  - { offsetInCU: 0x5BF, offset: 0x5E1DA, size: 0x8, addend: 0x0, symName: '-[AMPConfigManager ingestionEndpoint]', symObjAddr: 0x40B, symBinAddr: 0x8456, symSize: 0xA }
+  - { offsetInCU: 0x5F4, offset: 0x5E20F, size: 0x8, addend: 0x0, symName: '-[AMPConfigManager setIngestionEndpoint:]', symObjAddr: 0x415, symBinAddr: 0x8460, symSize: 0x11 }
+  - { offsetInCU: 0x633, offset: 0x5E24E, size: 0x8, addend: 0x0, symName: '-[AMPConfigManager .cxx_destruct]', symObjAddr: 0x426, symBinAddr: 0x8471, symSize: 0x10 }
+  - { offsetInCU: 0x27, offset: 0x5E44E, size: 0x8, addend: 0x0, symName: '-[AMPIdentify init]', symObjAddr: 0x0, symBinAddr: 0x8481, symSize: 0x99 }
+  - { offsetInCU: 0x85, offset: 0x5E4AC, size: 0x8, addend: 0x0, symName: '-[AMPIdentify init]', symObjAddr: 0x0, symBinAddr: 0x8481, symSize: 0x99 }
+  - { offsetInCU: 0xFC, offset: 0x5E523, size: 0x8, addend: 0x0, symName: '+[AMPIdentify identify]', symObjAddr: 0x99, symBinAddr: 0x851A, symSize: 0x22 }
+  - { offsetInCU: 0x13F, offset: 0x5E566, size: 0x8, addend: 0x0, symName: '-[AMPIdentify add:value:]', symObjAddr: 0xBB, symBinAddr: 0x853C, symSize: 0xC2 }
+  - { offsetInCU: 0x257, offset: 0x5E67E, size: 0x8, addend: 0x0, symName: '-[AMPIdentify append:value:]', symObjAddr: 0x17D, symBinAddr: 0x85FE, symSize: 0x30 }
+  - { offsetInCU: 0x2D3, offset: 0x5E6FA, size: 0x8, addend: 0x0, symName: '-[AMPIdentify clearAll]', symObjAddr: 0x1AD, symBinAddr: 0x862E, symSize: 0x72 }
+  - { offsetInCU: 0x33A, offset: 0x5E761, size: 0x8, addend: 0x0, symName: '-[AMPIdentify prepend:value:]', symObjAddr: 0x21F, symBinAddr: 0x86A0, symSize: 0x30 }
+  - { offsetInCU: 0x3B6, offset: 0x5E7DD, size: 0x8, addend: 0x0, symName: '-[AMPIdentify set:value:]', symObjAddr: 0x24F, symBinAddr: 0x86D0, symSize: 0x30 }
+  - { offsetInCU: 0x432, offset: 0x5E859, size: 0x8, addend: 0x0, symName: '-[AMPIdentify setOnce:value:]', symObjAddr: 0x27F, symBinAddr: 0x8700, symSize: 0x30 }
+  - { offsetInCU: 0x4AE, offset: 0x5E8D5, size: 0x8, addend: 0x0, symName: '-[AMPIdentify unset:]', symObjAddr: 0x2AF, symBinAddr: 0x8730, symSize: 0x34 }
+  - { offsetInCU: 0x512, offset: 0x5E939, size: 0x8, addend: 0x0, symName: '-[AMPIdentify preInsert:value:]', symObjAddr: 0x2E3, symBinAddr: 0x8764, symSize: 0x30 }
+  - { offsetInCU: 0x58E, offset: 0x5E9B5, size: 0x8, addend: 0x0, symName: '-[AMPIdentify postInsert:value:]', symObjAddr: 0x313, symBinAddr: 0x8794, symSize: 0x30 }
+  - { offsetInCU: 0x60A, offset: 0x5EA31, size: 0x8, addend: 0x0, symName: '-[AMPIdentify remove:value:]', symObjAddr: 0x343, symBinAddr: 0x87C4, symSize: 0x30 }
+  - { offsetInCU: 0x686, offset: 0x5EAAD, size: 0x8, addend: 0x0, symName: '-[AMPIdentify addToUserProperties:property:value:]', symObjAddr: 0x373, symBinAddr: 0x87F4, symSize: 0x190 }
+  - { offsetInCU: 0x83A, offset: 0x5EC61, size: 0x8, addend: 0x0, symName: '-[AMPIdentify userPropertyOperations]', symObjAddr: 0x503, symBinAddr: 0x8984, symSize: 0xA }
+  - { offsetInCU: 0x86F, offset: 0x5EC96, size: 0x8, addend: 0x0, symName: '-[AMPIdentify .cxx_destruct]', symObjAddr: 0x50D, symBinAddr: 0x898E, symSize: 0x28 }
+  - { offsetInCU: 0x27, offset: 0x5ED2F, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions init]', symObjAddr: 0x0, symBinAddr: 0x89B6, symSize: 0x7F }
+  - { offsetInCU: 0x6C, offset: 0x5ED74, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions init]', symObjAddr: 0x0, symBinAddr: 0x89B6, symSize: 0x7F }
+  - { offsetInCU: 0xDF, offset: 0x5EDE7, size: 0x8, addend: 0x0, symName: '+[AMPTrackingOptions options]', symObjAddr: 0x7F, symBinAddr: 0x8A35, symSize: 0x22 }
+  - { offsetInCU: 0x122, offset: 0x5EE2A, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions disableCarrier]', symObjAddr: 0xA1, symBinAddr: 0x8A57, symSize: 0x2A }
+  - { offsetInCU: 0x16E, offset: 0x5EE76, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions shouldTrackCarrier]', symObjAddr: 0xCB, symBinAddr: 0x8A81, symSize: 0x1C }
+  - { offsetInCU: 0x1B8, offset: 0x5EEC0, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions disableCity]', symObjAddr: 0xE7, symBinAddr: 0x8A9D, symSize: 0x2A }
+  - { offsetInCU: 0x204, offset: 0x5EF0C, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions shouldTrackCity]', symObjAddr: 0x111, symBinAddr: 0x8AC7, symSize: 0x1C }
+  - { offsetInCU: 0x24E, offset: 0x5EF56, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions disableCountry]', symObjAddr: 0x12D, symBinAddr: 0x8AE3, symSize: 0x2A }
+  - { offsetInCU: 0x29A, offset: 0x5EFA2, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions shouldTrackCountry]', symObjAddr: 0x157, symBinAddr: 0x8B0D, symSize: 0x1C }
+  - { offsetInCU: 0x2E4, offset: 0x5EFEC, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions disableDeviceManufacturer]', symObjAddr: 0x173, symBinAddr: 0x8B29, symSize: 0x2A }
+  - { offsetInCU: 0x330, offset: 0x5F038, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions shouldTrackDeviceManufacturer]', symObjAddr: 0x19D, symBinAddr: 0x8B53, symSize: 0x1C }
+  - { offsetInCU: 0x37A, offset: 0x5F082, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions disableDeviceModel]', symObjAddr: 0x1B9, symBinAddr: 0x8B6F, symSize: 0x2A }
+  - { offsetInCU: 0x3C6, offset: 0x5F0CE, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions shouldTrackDeviceModel]', symObjAddr: 0x1E3, symBinAddr: 0x8B99, symSize: 0x1C }
+  - { offsetInCU: 0x410, offset: 0x5F118, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions disableDMA]', symObjAddr: 0x1FF, symBinAddr: 0x8BB5, symSize: 0x2A }
+  - { offsetInCU: 0x45C, offset: 0x5F164, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions shouldTrackDMA]', symObjAddr: 0x229, symBinAddr: 0x8BDF, symSize: 0x1C }
+  - { offsetInCU: 0x4A6, offset: 0x5F1AE, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions disableIDFA]', symObjAddr: 0x245, symBinAddr: 0x8BFB, symSize: 0x2A }
+  - { offsetInCU: 0x4F2, offset: 0x5F1FA, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions shouldTrackIDFA]', symObjAddr: 0x26F, symBinAddr: 0x8C25, symSize: 0x1C }
+  - { offsetInCU: 0x53C, offset: 0x5F244, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions disableIDFV]', symObjAddr: 0x28B, symBinAddr: 0x8C41, symSize: 0x2A }
+  - { offsetInCU: 0x588, offset: 0x5F290, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions shouldTrackIDFV]', symObjAddr: 0x2B5, symBinAddr: 0x8C6B, symSize: 0x1C }
+  - { offsetInCU: 0x5D2, offset: 0x5F2DA, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions disableIPAddress]', symObjAddr: 0x2D1, symBinAddr: 0x8C87, symSize: 0x2A }
+  - { offsetInCU: 0x61E, offset: 0x5F326, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions shouldTrackIPAddress]', symObjAddr: 0x2FB, symBinAddr: 0x8CB1, symSize: 0x1C }
+  - { offsetInCU: 0x668, offset: 0x5F370, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions disableLanguage]', symObjAddr: 0x317, symBinAddr: 0x8CCD, symSize: 0x2A }
+  - { offsetInCU: 0x6B4, offset: 0x5F3BC, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions shouldTrackLanguage]', symObjAddr: 0x341, symBinAddr: 0x8CF7, symSize: 0x1C }
+  - { offsetInCU: 0x6FE, offset: 0x5F406, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions disableLatLng]', symObjAddr: 0x35D, symBinAddr: 0x8D13, symSize: 0x2A }
+  - { offsetInCU: 0x74A, offset: 0x5F452, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions shouldTrackLatLng]', symObjAddr: 0x387, symBinAddr: 0x8D3D, symSize: 0x1C }
+  - { offsetInCU: 0x794, offset: 0x5F49C, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions disableOSName]', symObjAddr: 0x3A3, symBinAddr: 0x8D59, symSize: 0x2A }
+  - { offsetInCU: 0x7E0, offset: 0x5F4E8, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions shouldTrackOSName]', symObjAddr: 0x3CD, symBinAddr: 0x8D83, symSize: 0x1C }
+  - { offsetInCU: 0x82A, offset: 0x5F532, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions disableOSVersion]', symObjAddr: 0x3E9, symBinAddr: 0x8D9F, symSize: 0x2A }
+  - { offsetInCU: 0x876, offset: 0x5F57E, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions shouldTrackOSVersion]', symObjAddr: 0x413, symBinAddr: 0x8DC9, symSize: 0x1C }
+  - { offsetInCU: 0x8C0, offset: 0x5F5C8, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions disablePlatform]', symObjAddr: 0x42F, symBinAddr: 0x8DE5, symSize: 0x2A }
+  - { offsetInCU: 0x90C, offset: 0x5F614, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions shouldTrackPlatform]', symObjAddr: 0x459, symBinAddr: 0x8E0F, symSize: 0x1C }
+  - { offsetInCU: 0x956, offset: 0x5F65E, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions disableRegion]', symObjAddr: 0x475, symBinAddr: 0x8E2B, symSize: 0x2A }
+  - { offsetInCU: 0x9A2, offset: 0x5F6AA, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions shouldTrackRegion]', symObjAddr: 0x49F, symBinAddr: 0x8E55, symSize: 0x1C }
+  - { offsetInCU: 0x9EC, offset: 0x5F6F4, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions disableVersionName]', symObjAddr: 0x4BB, symBinAddr: 0x8E71, symSize: 0x2A }
+  - { offsetInCU: 0xA38, offset: 0x5F740, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions shouldTrackVersionName]', symObjAddr: 0x4E5, symBinAddr: 0x8E9B, symSize: 0x1C }
+  - { offsetInCU: 0xA82, offset: 0x5F78A, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions disableTrackingField:]', symObjAddr: 0x501, symBinAddr: 0x8EB7, symSize: 0x69 }
+  - { offsetInCU: 0xB22, offset: 0x5F82A, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions shouldTrackField:]', symObjAddr: 0x56A, symBinAddr: 0x8F20, symSize: 0x72 }
+  - { offsetInCU: 0xBC6, offset: 0x5F8CE, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions getApiPropertiesTrackingOption]', symObjAddr: 0x5DC, symBinAddr: 0x8F92, symSize: 0x2D4 }
+  - { offsetInCU: 0xD54, offset: 0x5FA5C, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions mergeIn:]', symObjAddr: 0x8B0, symBinAddr: 0x9266, symSize: 0x148 }
+  - { offsetInCU: 0xE0F, offset: 0x5FB17, size: 0x8, addend: 0x0, symName: '+[AMPTrackingOptions forCoppaControl]', symObjAddr: 0x9F8, symBinAddr: 0x93AE, symSize: 0x1D0 }
+  - { offsetInCU: 0xF0B, offset: 0x5FC13, size: 0x8, addend: 0x0, symName: '+[AMPTrackingOptions copyOf:]', symObjAddr: 0xBC8, symBinAddr: 0x957E, symSize: 0x178 }
+  - { offsetInCU: 0x100E, offset: 0x5FD16, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions disabledFields]', symObjAddr: 0xD40, symBinAddr: 0x96F6, symSize: 0xA }
+  - { offsetInCU: 0x1043, offset: 0x5FD4B, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions setDisabledFields:]', symObjAddr: 0xD4A, symBinAddr: 0x9700, symSize: 0x11 }
+  - { offsetInCU: 0x1082, offset: 0x5FD8A, size: 0x8, addend: 0x0, symName: '-[AMPTrackingOptions .cxx_destruct]', symObjAddr: 0xD5B, symBinAddr: 0x9711, symSize: 0x10 }
+  - { offsetInCU: 0x35, offset: 0x5FE66, size: 0x8, addend: 0x0, symName: _kAMPLibrary, symObjAddr: 0x778, symBinAddr: 0x184E8, symSize: 0x0 }
+  - { offsetInCU: 0x55, offset: 0x5FE86, size: 0x8, addend: 0x0, symName: _kAMPVersion, symObjAddr: 0x780, symBinAddr: 0x184F0, symSize: 0x0 }
+  - { offsetInCU: 0x6B, offset: 0x5FE9C, size: 0x8, addend: 0x0, symName: _kAMPUnknownLibrary, symObjAddr: 0x788, symBinAddr: 0x184F8, symSize: 0x0 }
+  - { offsetInCU: 0x81, offset: 0x5FEB2, size: 0x8, addend: 0x0, symName: _kAMPUnknownVersion, symObjAddr: 0x790, symBinAddr: 0x18500, symSize: 0x0 }
+  - { offsetInCU: 0x97, offset: 0x5FEC8, size: 0x8, addend: 0x0, symName: _kAMPEventLogDomain, symObjAddr: 0x798, symBinAddr: 0x18508, symSize: 0x0 }
+  - { offsetInCU: 0xAD, offset: 0x5FEDE, size: 0x8, addend: 0x0, symName: _kAMPEventLogUrl, symObjAddr: 0x7A0, symBinAddr: 0x18510, symSize: 0x0 }
+  - { offsetInCU: 0xC3, offset: 0x5FEF4, size: 0x8, addend: 0x0, symName: _kAMPContentTypeHeader, symObjAddr: 0x7A8, symBinAddr: 0x18518, symSize: 0x0 }
+  - { offsetInCU: 0xD9, offset: 0x5FF0A, size: 0x8, addend: 0x0, symName: _kAMPDyanmicConfigUrl, symObjAddr: 0x7B0, symBinAddr: 0x18520, symSize: 0x0 }
+  - { offsetInCU: 0xEF, offset: 0x5FF20, size: 0x8, addend: 0x0, symName: _kAMPDefaultInstance, symObjAddr: 0x7B8, symBinAddr: 0x18528, symSize: 0x0 }
+  - { offsetInCU: 0x105, offset: 0x5FF36, size: 0x8, addend: 0x0, symName: _kAMPApiVersion, symObjAddr: 0x8D8, symBinAddr: 0x13200, symSize: 0x0 }
+  - { offsetInCU: 0x127, offset: 0x5FF58, size: 0x8, addend: 0x0, symName: _kAMPDBVersion, symObjAddr: 0x8DC, symBinAddr: 0x13204, symSize: 0x0 }
+  - { offsetInCU: 0x13D, offset: 0x5FF6E, size: 0x8, addend: 0x0, symName: _kAMPDBFirstVersion, symObjAddr: 0x8E0, symBinAddr: 0x13208, symSize: 0x0 }
+  - { offsetInCU: 0x153, offset: 0x5FF84, size: 0x8, addend: 0x0, symName: _kAMPEventUploadThreshold, symObjAddr: 0x8E4, symBinAddr: 0x1320C, symSize: 0x0 }
+  - { offsetInCU: 0x169, offset: 0x5FF9A, size: 0x8, addend: 0x0, symName: _kAMPEventMaxCount, symObjAddr: 0x8E8, symBinAddr: 0x13210, symSize: 0x0 }
+  - { offsetInCU: 0x17F, offset: 0x5FFB0, size: 0x8, addend: 0x0, symName: _kAMPPlatform, symObjAddr: 0x7C0, symBinAddr: 0x18530, symSize: 0x0 }
+  - { offsetInCU: 0x195, offset: 0x5FFC6, size: 0x8, addend: 0x0, symName: _kAMPOSName, symObjAddr: 0x7C8, symBinAddr: 0x18538, symSize: 0x0 }
+  - { offsetInCU: 0x1AB, offset: 0x5FFDC, size: 0x8, addend: 0x0, symName: _kAMPEventUploadMaxBatchSize, symObjAddr: 0x8EC, symBinAddr: 0x13214, symSize: 0x0 }
+  - { offsetInCU: 0x1C1, offset: 0x5FFF2, size: 0x8, addend: 0x0, symName: _kAMPEventRemoveBatchSize, symObjAddr: 0x8F0, symBinAddr: 0x13218, symSize: 0x0 }
+  - { offsetInCU: 0x1D7, offset: 0x60008, size: 0x8, addend: 0x0, symName: _kAMPEventUploadPeriodSeconds, symObjAddr: 0x8F4, symBinAddr: 0x1321C, symSize: 0x0 }
+  - { offsetInCU: 0x1ED, offset: 0x6001E, size: 0x8, addend: 0x0, symName: _kAMPMinTimeBetweenSessionsMillis, symObjAddr: 0x8F8, symBinAddr: 0x13220, symSize: 0x0 }
+  - { offsetInCU: 0x20F, offset: 0x60040, size: 0x8, addend: 0x0, symName: _kAMPMaxStringLength, symObjAddr: 0x900, symBinAddr: 0x13228, symSize: 0x0 }
+  - { offsetInCU: 0x225, offset: 0x60056, size: 0x8, addend: 0x0, symName: _kAMPMaxPropertyKeys, symObjAddr: 0x904, symBinAddr: 0x1322C, symSize: 0x0 }
+  - { offsetInCU: 0x23B, offset: 0x6006C, size: 0x8, addend: 0x0, symName: _IDENTIFY_EVENT, symObjAddr: 0x7D0, symBinAddr: 0x18540, symSize: 0x0 }
+  - { offsetInCU: 0x251, offset: 0x60082, size: 0x8, addend: 0x0, symName: _GROUP_IDENTIFY_EVENT, symObjAddr: 0x7D8, symBinAddr: 0x18548, symSize: 0x0 }
+  - { offsetInCU: 0x267, offset: 0x60098, size: 0x8, addend: 0x0, symName: _AMP_OP_ADD, symObjAddr: 0x7E0, symBinAddr: 0x18550, symSize: 0x0 }
+  - { offsetInCU: 0x27D, offset: 0x600AE, size: 0x8, addend: 0x0, symName: _AMP_OP_APPEND, symObjAddr: 0x7E8, symBinAddr: 0x18558, symSize: 0x0 }
+  - { offsetInCU: 0x293, offset: 0x600C4, size: 0x8, addend: 0x0, symName: _AMP_OP_CLEAR_ALL, symObjAddr: 0x7F0, symBinAddr: 0x18560, symSize: 0x0 }
+  - { offsetInCU: 0x2A9, offset: 0x600DA, size: 0x8, addend: 0x0, symName: _AMP_OP_PREPEND, symObjAddr: 0x7F8, symBinAddr: 0x18568, symSize: 0x0 }
+  - { offsetInCU: 0x2BF, offset: 0x600F0, size: 0x8, addend: 0x0, symName: _AMP_OP_SET, symObjAddr: 0x800, symBinAddr: 0x18570, symSize: 0x0 }
+  - { offsetInCU: 0x2D5, offset: 0x60106, size: 0x8, addend: 0x0, symName: _AMP_OP_SET_ONCE, symObjAddr: 0x808, symBinAddr: 0x18578, symSize: 0x0 }
+  - { offsetInCU: 0x2EB, offset: 0x6011C, size: 0x8, addend: 0x0, symName: _AMP_OP_UNSET, symObjAddr: 0x810, symBinAddr: 0x18580, symSize: 0x0 }
+  - { offsetInCU: 0x301, offset: 0x60132, size: 0x8, addend: 0x0, symName: _AMP_OP_PREINSERT, symObjAddr: 0x818, symBinAddr: 0x18588, symSize: 0x0 }
+  - { offsetInCU: 0x317, offset: 0x60148, size: 0x8, addend: 0x0, symName: _AMP_OP_POSTINSERT, symObjAddr: 0x820, symBinAddr: 0x18590, symSize: 0x0 }
+  - { offsetInCU: 0x32D, offset: 0x6015E, size: 0x8, addend: 0x0, symName: _AMP_OP_REMOVE, symObjAddr: 0x828, symBinAddr: 0x18598, symSize: 0x0 }
+  - { offsetInCU: 0x343, offset: 0x60174, size: 0x8, addend: 0x0, symName: _AMP_REVENUE_PRODUCT_ID, symObjAddr: 0x830, symBinAddr: 0x185A0, symSize: 0x0 }
+  - { offsetInCU: 0x359, offset: 0x6018A, size: 0x8, addend: 0x0, symName: _AMP_REVENUE_QUANTITY, symObjAddr: 0x838, symBinAddr: 0x185A8, symSize: 0x0 }
+  - { offsetInCU: 0x36F, offset: 0x601A0, size: 0x8, addend: 0x0, symName: _AMP_REVENUE_PRICE, symObjAddr: 0x840, symBinAddr: 0x185B0, symSize: 0x0 }
+  - { offsetInCU: 0x385, offset: 0x601B6, size: 0x8, addend: 0x0, symName: _AMP_REVENUE_REVENUE_TYPE, symObjAddr: 0x848, symBinAddr: 0x185B8, symSize: 0x0 }
+  - { offsetInCU: 0x39B, offset: 0x601CC, size: 0x8, addend: 0x0, symName: _AMP_REVENUE_RECEIPT, symObjAddr: 0x850, symBinAddr: 0x185C0, symSize: 0x0 }
+  - { offsetInCU: 0x3B1, offset: 0x601E2, size: 0x8, addend: 0x0, symName: _AMP_TRACKING_OPTION_CARRIER, symObjAddr: 0x858, symBinAddr: 0x185C8, symSize: 0x0 }
+  - { offsetInCU: 0x3C7, offset: 0x601F8, size: 0x8, addend: 0x0, symName: _AMP_TRACKING_OPTION_CITY, symObjAddr: 0x860, symBinAddr: 0x185D0, symSize: 0x0 }
+  - { offsetInCU: 0x3DD, offset: 0x6020E, size: 0x8, addend: 0x0, symName: _AMP_TRACKING_OPTION_COUNTRY, symObjAddr: 0x868, symBinAddr: 0x185D8, symSize: 0x0 }
+  - { offsetInCU: 0x3F3, offset: 0x60224, size: 0x8, addend: 0x0, symName: _AMP_TRACKING_OPTION_DEVICE_MANUFACTURER, symObjAddr: 0x870, symBinAddr: 0x185E0, symSize: 0x0 }
+  - { offsetInCU: 0x409, offset: 0x6023A, size: 0x8, addend: 0x0, symName: _AMP_TRACKING_OPTION_DEVICE_MODEL, symObjAddr: 0x878, symBinAddr: 0x185E8, symSize: 0x0 }
+  - { offsetInCU: 0x41F, offset: 0x60250, size: 0x8, addend: 0x0, symName: _AMP_TRACKING_OPTION_DMA, symObjAddr: 0x880, symBinAddr: 0x185F0, symSize: 0x0 }
+  - { offsetInCU: 0x435, offset: 0x60266, size: 0x8, addend: 0x0, symName: _AMP_TRACKING_OPTION_IDFA, symObjAddr: 0x888, symBinAddr: 0x185F8, symSize: 0x0 }
+  - { offsetInCU: 0x44B, offset: 0x6027C, size: 0x8, addend: 0x0, symName: _AMP_TRACKING_OPTION_IDFV, symObjAddr: 0x890, symBinAddr: 0x18600, symSize: 0x0 }
+  - { offsetInCU: 0x461, offset: 0x60292, size: 0x8, addend: 0x0, symName: _AMP_TRACKING_OPTION_IP_ADDRESS, symObjAddr: 0x898, symBinAddr: 0x18608, symSize: 0x0 }
+  - { offsetInCU: 0x477, offset: 0x602A8, size: 0x8, addend: 0x0, symName: _AMP_TRACKING_OPTION_LANGUAGE, symObjAddr: 0x8A0, symBinAddr: 0x18610, symSize: 0x0 }
+  - { offsetInCU: 0x48D, offset: 0x602BE, size: 0x8, addend: 0x0, symName: _AMP_TRACKING_OPTION_LAT_LNG, symObjAddr: 0x8A8, symBinAddr: 0x18618, symSize: 0x0 }
+  - { offsetInCU: 0x4A3, offset: 0x602D4, size: 0x8, addend: 0x0, symName: _AMP_TRACKING_OPTION_OS_NAME, symObjAddr: 0x8B0, symBinAddr: 0x18620, symSize: 0x0 }
+  - { offsetInCU: 0x4B9, offset: 0x602EA, size: 0x8, addend: 0x0, symName: _AMP_TRACKING_OPTION_OS_VERSION, symObjAddr: 0x8B8, symBinAddr: 0x18628, symSize: 0x0 }
+  - { offsetInCU: 0x4CF, offset: 0x60300, size: 0x8, addend: 0x0, symName: _AMP_TRACKING_OPTION_PLATFORM, symObjAddr: 0x8C0, symBinAddr: 0x18630, symSize: 0x0 }
+  - { offsetInCU: 0x4E5, offset: 0x60316, size: 0x8, addend: 0x0, symName: _AMP_TRACKING_OPTION_REGION, symObjAddr: 0x8C8, symBinAddr: 0x18638, symSize: 0x0 }
+  - { offsetInCU: 0x4FB, offset: 0x6032C, size: 0x8, addend: 0x0, symName: _AMP_TRACKING_OPTION_VERSION_NAME, symObjAddr: 0x8D0, symBinAddr: 0x18640, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x60364, size: 0x8, addend: 0x0, symName: '-[AMPDeviceInfo appVersion]', symObjAddr: 0x0, symBinAddr: 0x9721, symSize: 0x9D }
+  - { offsetInCU: 0x1BE, offset: 0x604FB, size: 0x8, addend: 0x0, symName: '-[AMPDeviceInfo appVersion]', symObjAddr: 0x0, symBinAddr: 0x9721, symSize: 0x9D }
+  - { offsetInCU: 0x24D, offset: 0x6058A, size: 0x8, addend: 0x0, symName: '-[AMPDeviceInfo osName]', symObjAddr: 0x9D, symBinAddr: 0x97BE, symSize: 0x14 }
+  - { offsetInCU: 0x280, offset: 0x605BD, size: 0x8, addend: 0x0, symName: '-[AMPDeviceInfo osVersion]', symObjAddr: 0xB1, symBinAddr: 0x97D2, symSize: 0x79 }
+  - { offsetInCU: 0x2EF, offset: 0x6062C, size: 0x8, addend: 0x0, symName: '-[AMPDeviceInfo manufacturer]', symObjAddr: 0x12A, symBinAddr: 0x984B, symSize: 0xD }
+  - { offsetInCU: 0x322, offset: 0x6065F, size: 0x8, addend: 0x0, symName: '-[AMPDeviceInfo model]', symObjAddr: 0x137, symBinAddr: 0x9858, symSize: 0x4B }
+  - { offsetInCU: 0x371, offset: 0x606AE, size: 0x8, addend: 0x0, symName: '-[AMPDeviceInfo carrier]', symObjAddr: 0x182, symBinAddr: 0x98A3, symSize: 0x13A }
+  - { offsetInCU: 0x526, offset: 0x60863, size: 0x8, addend: 0x0, symName: '-[AMPDeviceInfo country]', symObjAddr: 0x2BC, symBinAddr: 0x99DD, symSize: 0xE7 }
+  - { offsetInCU: 0x5D7, offset: 0x60914, size: 0x8, addend: 0x0, symName: '-[AMPDeviceInfo language]', symObjAddr: 0x3A3, symBinAddr: 0x9AC4, symSize: 0xE3 }
+  - { offsetInCU: 0x686, offset: 0x609C3, size: 0x8, addend: 0x0, symName: '-[AMPDeviceInfo vendorID]', symObjAddr: 0x486, symBinAddr: 0x9BA7, symSize: 0xF8 }
+  - { offsetInCU: 0x758, offset: 0x60A95, size: 0x8, addend: 0x0, symName: '+[AMPDeviceInfo getVendorID:]', symObjAddr: 0x57E, symBinAddr: 0x9C9F, symSize: 0xE9 }
+  - { offsetInCU: 0x833, offset: 0x60B70, size: 0x8, addend: 0x0, symName: '+[AMPDeviceInfo generateUUID]', symObjAddr: 0x667, symBinAddr: 0x9D88, symSize: 0x5E }
+  - { offsetInCU: 0x89E, offset: 0x60BDB, size: 0x8, addend: 0x0, symName: '+[AMPDeviceInfo getPlatformString]', symObjAddr: 0x6C5, symBinAddr: 0x9DE6, symSize: 0x81 }
+  - { offsetInCU: 0x9B5, offset: 0x60CF2, size: 0x8, addend: 0x0, symName: '+[AMPDeviceInfo getDeviceModel]', symObjAddr: 0x746, symBinAddr: 0x9E67, symSize: 0xFD9 }
+  - { offsetInCU: 0x1784, offset: 0x61AC1, size: 0x8, addend: 0x0, symName: '-[AMPDeviceInfo .cxx_destruct]', symObjAddr: 0x171F, symBinAddr: 0xAE40, symSize: 0x6A }
+  - { offsetInCU: 0x27, offset: 0x61B2F, size: 0x8, addend: 0x0, symName: '+[Amplitude instance]', symObjAddr: 0x0, symBinAddr: 0xAEB0, symSize: 0x1B }
+  - { offsetInCU: 0x41, offset: 0x61B49, size: 0x8, addend: 0x0, symName: _kAMPSessionStartEvent, symObjAddr: 0x9590, symBinAddr: 0x18648, symSize: 0x0 }
+  - { offsetInCU: 0x61, offset: 0x61B69, size: 0x8, addend: 0x0, symName: _kAMPSessionEndEvent, symObjAddr: 0x9598, symBinAddr: 0x18650, symSize: 0x0 }
+  - { offsetInCU: 0x77, offset: 0x61B7F, size: 0x8, addend: 0x0, symName: _kAMPRevenueEvent, symObjAddr: 0x95A0, symBinAddr: 0x18658, symSize: 0x0 }
+  - { offsetInCU: 0x81, offset: 0x61B89, size: 0x8, addend: 0x0, symName: '+[Amplitude instanceWithName:]', symObjAddr: 0x1B, symBinAddr: 0xAECB, symSize: 0x157 }
+  - { offsetInCU: 0xAB, offset: 0x61BB3, size: 0x8, addend: 0x0, symName: '_instanceWithName:._instances', symObjAddr: 0x28F00, symBinAddr: 0x1F3A0, symSize: 0x0 }
+  - { offsetInCU: 0xC1, offset: 0x61BC9, size: 0x8, addend: 0x0, symName: '_instanceWithName:.onceToken', symObjAddr: 0x28F08, symBinAddr: 0x1F3A8, symSize: 0x0 }
+  - { offsetInCU: 0x77A, offset: 0x62282, size: 0x8, addend: 0x0, symName: '+[Amplitude instance]', symObjAddr: 0x0, symBinAddr: 0xAEB0, symSize: 0x1B }
+  - { offsetInCU: 0x85B, offset: 0x62363, size: 0x8, addend: 0x0, symName: '___30+[Amplitude instanceWithName:]_block_invoke', symObjAddr: 0x172, symBinAddr: 0xB022, symSize: 0x35 }
+  - { offsetInCU: 0x89A, offset: 0x623A2, size: 0x8, addend: 0x0, symName: '-[Amplitude init]', symObjAddr: 0x1A7, symBinAddr: 0xB057, symSize: 0x14 }
+  - { offsetInCU: 0x8E9, offset: 0x623F1, size: 0x8, addend: 0x0, symName: '-[Amplitude initWithInstanceName:]', symObjAddr: 0x1BB, symBinAddr: 0xB06B, symSize: 0x37E }
+  - { offsetInCU: 0xB95, offset: 0x6269D, size: 0x8, addend: 0x0, symName: '___34-[Amplitude initWithInstanceName:]_block_invoke', symObjAddr: 0x539, symBinAddr: 0xB3E9, symSize: 0x48B }
+  - { offsetInCU: 0xF11, offset: 0x62A19, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x9C4, symBinAddr: 0xB874, symSize: 0xF }
+  - { offsetInCU: 0xF44, offset: 0x62A4C, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x9D3, symBinAddr: 0xB883, symSize: 0xF }
+  - { offsetInCU: 0xF6F, offset: 0x62A77, size: 0x8, addend: 0x0, symName: '-[Amplitude migrateEventsDataToDB]', symObjAddr: 0x9E2, symBinAddr: 0xB892, symSize: 0x4E2 }
+  - { offsetInCU: 0x12D5, offset: 0x62DDD, size: 0x8, addend: 0x0, symName: '-[Amplitude addObservers]', symObjAddr: 0xEC4, symBinAddr: 0xBD74, symSize: 0x89 }
+  - { offsetInCU: 0x1386, offset: 0x62E8E, size: 0x8, addend: 0x0, symName: '-[Amplitude removeObservers]', symObjAddr: 0xF4D, symBinAddr: 0xBDFD, symSize: 0x7B }
+  - { offsetInCU: 0x1437, offset: 0x62F3F, size: 0x8, addend: 0x0, symName: '-[Amplitude dealloc]', symObjAddr: 0xFC8, symBinAddr: 0xBE78, symSize: 0x3E }
+  - { offsetInCU: 0x1480, offset: 0x62F88, size: 0x8, addend: 0x0, symName: '-[Amplitude initializeApiKey:]', symObjAddr: 0x1006, symBinAddr: 0xBEB6, symSize: 0x17 }
+  - { offsetInCU: 0x14EA, offset: 0x62FF2, size: 0x8, addend: 0x0, symName: '-[Amplitude initializeApiKey:userId:]', symObjAddr: 0x101D, symBinAddr: 0xBECD, symSize: 0x18 }
+  - { offsetInCU: 0x1565, offset: 0x6306D, size: 0x8, addend: 0x0, symName: '-[Amplitude initializeApiKey:userId:setUserId:]', symObjAddr: 0x1035, symBinAddr: 0xBEE5, symSize: 0x1EA }
+  - { offsetInCU: 0x172B, offset: 0x63233, size: 0x8, addend: 0x0, symName: '___47-[Amplitude initializeApiKey:userId:setUserId:]_block_invoke', symObjAddr: 0x121F, symBinAddr: 0xC0CF, symSize: 0xDA }
+  - { offsetInCU: 0x180B, offset: 0x63313, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x12F9, symBinAddr: 0xC1A9, symSize: 0x25 }
+  - { offsetInCU: 0x184C, offset: 0x63354, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x131E, symBinAddr: 0xC1CE, symSize: 0x25 }
+  - { offsetInCU: 0x1883, offset: 0x6338B, size: 0x8, addend: 0x0, symName: '___47-[Amplitude initializeApiKey:userId:setUserId:]_block_invoke.194', symObjAddr: 0x1343, symBinAddr: 0xC1F3, symSize: 0x9C }
+  - { offsetInCU: 0x1949, offset: 0x63451, size: 0x8, addend: 0x0, symName: '___47-[Amplitude initializeApiKey:userId:setUserId:]_block_invoke_2', symObjAddr: 0x13DF, symBinAddr: 0xC28F, symSize: 0xB4 }
+  - { offsetInCU: 0x1A13, offset: 0x6351B, size: 0x8, addend: 0x0, symName: '-[Amplitude runOnBackgroundQueue:]', symObjAddr: 0x1493, symBinAddr: 0xC343, symSize: 0xD0 }
+  - { offsetInCU: 0x1AF9, offset: 0x63601, size: 0x8, addend: 0x0, symName: '-[Amplitude runSynchronouslyOnMainQueue:]', symObjAddr: 0x1563, symBinAddr: 0xC413, symSize: 0x5E }
+  - { offsetInCU: 0x1BC1, offset: 0x636C9, size: 0x8, addend: 0x0, symName: '-[Amplitude logEvent:]', symObjAddr: 0x15C1, symBinAddr: 0xC471, symSize: 0x14 }
+  - { offsetInCU: 0x1C25, offset: 0x6372D, size: 0x8, addend: 0x0, symName: '-[Amplitude logEvent:withEventProperties:]', symObjAddr: 0x15D5, symBinAddr: 0xC485, symSize: 0x15 }
+  - { offsetInCU: 0x1CA0, offset: 0x637A8, size: 0x8, addend: 0x0, symName: '-[Amplitude logEvent:withEventProperties:outOfSession:]', symObjAddr: 0x15EA, symBinAddr: 0xC49A, symSize: 0x18 }
+  - { offsetInCU: 0x1D34, offset: 0x6383C, size: 0x8, addend: 0x0, symName: '-[Amplitude logEvent:withEventProperties:withGroups:]', symObjAddr: 0x1602, symBinAddr: 0xC4B2, symSize: 0x15 }
+  - { offsetInCU: 0x1DC6, offset: 0x638CE, size: 0x8, addend: 0x0, symName: '-[Amplitude logEvent:withEventProperties:withGroups:outOfSession:]', symObjAddr: 0x1617, symBinAddr: 0xC4C7, symSize: 0x32 }
+  - { offsetInCU: 0x1E6F, offset: 0x63977, size: 0x8, addend: 0x0, symName: '-[Amplitude logEvent:withEventProperties:withGroups:withLongLongTimestamp:outOfSession:]', symObjAddr: 0x1649, symBinAddr: 0xC4F9, symSize: 0xCB }
+  - { offsetInCU: 0x1FBD, offset: 0x63AC5, size: 0x8, addend: 0x0, symName: '-[Amplitude logEvent:withEventProperties:withGroups:withTimestamp:outOfSession:]', symObjAddr: 0x1714, symBinAddr: 0xC5C4, symSize: 0x2F }
+  - { offsetInCU: 0x2073, offset: 0x63B7B, size: 0x8, addend: 0x0, symName: '-[Amplitude logEvent:withEventProperties:withApiProperties:withUserProperties:withGroups:withGroupProperties:withTimestamp:outOfSession:]', symObjAddr: 0x1743, symBinAddr: 0xC5F3, symSize: 0x399 }
+  - { offsetInCU: 0x24E8, offset: 0x63FF0, size: 0x8, addend: 0x0, symName: '___137-[Amplitude logEvent:withEventProperties:withApiProperties:withUserProperties:withGroups:withGroupProperties:withTimestamp:outOfSession:]_block_invoke', symObjAddr: 0x1ADC, symBinAddr: 0xC98C, symSize: 0x682 }
+  - { offsetInCU: 0x2A94, offset: 0x6459C, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64s72s80s88s, symObjAddr: 0x215E, symBinAddr: 0xD00E, symSize: 0x4F }
+  - { offsetInCU: 0x2B1D, offset: 0x64625, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s72s80s88s, symObjAddr: 0x21AD, symBinAddr: 0xD05D, symSize: 0x4F }
+  - { offsetInCU: 0x2B9C, offset: 0x646A4, size: 0x8, addend: 0x0, symName: '-[Amplitude truncateEventQueues]', symObjAddr: 0x21FC, symBinAddr: 0xD0AC, symSize: 0x1C7 }
+  - { offsetInCU: 0x2DCB, offset: 0x648D3, size: 0x8, addend: 0x0, symName: '-[Amplitude annotateEvent:]', symObjAddr: 0x23C3, symBinAddr: 0xD273, symSize: 0x6BD }
+  - { offsetInCU: 0x33FE, offset: 0x64F06, size: 0x8, addend: 0x0, symName: '-[Amplitude logRevenue:]', symObjAddr: 0x2A80, symBinAddr: 0xD930, symSize: 0x1C }
+  - { offsetInCU: 0x346A, offset: 0x64F72, size: 0x8, addend: 0x0, symName: '-[Amplitude logRevenue:quantity:price:]', symObjAddr: 0x2A9C, symBinAddr: 0xD94C, symSize: 0x15 }
+  - { offsetInCU: 0x34FC, offset: 0x65004, size: 0x8, addend: 0x0, symName: '-[Amplitude logRevenue:quantity:price:receipt:]', symObjAddr: 0x2AB1, symBinAddr: 0xD961, symSize: 0x239 }
+  - { offsetInCU: 0x376D, offset: 0x65275, size: 0x8, addend: 0x0, symName: '-[Amplitude logRevenueV2:]', symObjAddr: 0x2CEA, symBinAddr: 0xDB9A, symSize: 0xBC }
+  - { offsetInCU: 0x383B, offset: 0x65343, size: 0x8, addend: 0x0, symName: '-[Amplitude uploadEventsWithDelay:]', symObjAddr: 0x2DA6, symBinAddr: 0xDC56, symSize: 0xF7 }
+  - { offsetInCU: 0x38BA, offset: 0x653C2, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x2E9D, symBinAddr: 0xDD4D, symSize: 0x12 }
+  - { offsetInCU: 0x38E3, offset: 0x653EB, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x2EAF, symBinAddr: 0xDD5F, symSize: 0xE }
+  - { offsetInCU: 0x3902, offset: 0x6540A, size: 0x8, addend: 0x0, symName: '___35-[Amplitude uploadEventsWithDelay:]_block_invoke', symObjAddr: 0x2EBD, symBinAddr: 0xDD6D, symSize: 0x55 }
+  - { offsetInCU: 0x397A, offset: 0x65482, size: 0x8, addend: 0x0, symName: '___35-[Amplitude uploadEventsWithDelay:]_block_invoke_2', symObjAddr: 0x2F12, symBinAddr: 0xDDC2, symSize: 0x49 }
+  - { offsetInCU: 0x39F0, offset: 0x654F8, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32r, symObjAddr: 0x2F72, symBinAddr: 0xDE12, symSize: 0x13 }
+  - { offsetInCU: 0x3A0F, offset: 0x65517, size: 0x8, addend: 0x0, symName: '-[Amplitude uploadEventsInBackground]', symObjAddr: 0x2F85, symBinAddr: 0xDE25, symSize: 0x16 }
+  - { offsetInCU: 0x3A56, offset: 0x6555E, size: 0x8, addend: 0x0, symName: '-[Amplitude uploadEvents]', symObjAddr: 0x2F9B, symBinAddr: 0xDE3B, symSize: 0x3F }
+  - { offsetInCU: 0x3AC3, offset: 0x655CB, size: 0x8, addend: 0x0, symName: '-[Amplitude uploadEventsWithLimit:]', symObjAddr: 0x2FDA, symBinAddr: 0xDE7A, symSize: 0xE3 }
+  - { offsetInCU: 0x3B78, offset: 0x65680, size: 0x8, addend: 0x0, symName: '___35-[Amplitude uploadEventsWithLimit:]_block_invoke', symObjAddr: 0x30BD, symBinAddr: 0xDF5D, symSize: 0x38C }
+  - { offsetInCU: 0x3E91, offset: 0x65999, size: 0x8, addend: 0x0, symName: '-[Amplitude refreshDynamicConfig]', symObjAddr: 0x3449, symBinAddr: 0xE2E9, symSize: 0x112 }
+  - { offsetInCU: 0x3F3B, offset: 0x65A43, size: 0x8, addend: 0x0, symName: '___33-[Amplitude refreshDynamicConfig]_block_invoke', symObjAddr: 0x355B, symBinAddr: 0xE3FB, symSize: 0x86 }
+  - { offsetInCU: 0x3FE5, offset: 0x65AED, size: 0x8, addend: 0x0, symName: '-[Amplitude getNextSequenceNumber]', symObjAddr: 0x35E1, symBinAddr: 0xE481, symSize: 0xF0 }
+  - { offsetInCU: 0x40E3, offset: 0x65BEB, size: 0x8, addend: 0x0, symName: '-[Amplitude mergeEventsAndIdentifys:identifys:numEvents:]', symObjAddr: 0x36D1, symBinAddr: 0xE571, symSize: 0x47D }
+  - { offsetInCU: 0x455E, offset: 0x66066, size: 0x8, addend: 0x0, symName: '-[Amplitude makeEventUploadPostRequest:events:numEvents:maxEventId:maxIdentifyId:]', symObjAddr: 0x3B4E, symBinAddr: 0xE9EE, symSize: 0x69D }
+  - { offsetInCU: 0x4BC8, offset: 0x666D0, size: 0x8, addend: 0x0, symName: '___82-[Amplitude makeEventUploadPostRequest:events:numEvents:maxEventId:maxIdentifyId:]_block_invoke', symObjAddr: 0x41EB, symBinAddr: 0xF08B, symSize: 0x52D }
+  - { offsetInCU: 0x5058, offset: 0x66B60, size: 0x8, addend: 0x0, symName: '-[Amplitude enterForeground]', symObjAddr: 0x4718, symBinAddr: 0xF5B8, symSize: 0x131 }
+  - { offsetInCU: 0x5161, offset: 0x66C69, size: 0x8, addend: 0x0, symName: '___28-[Amplitude enterForeground]_block_invoke', symObjAddr: 0x4849, symBinAddr: 0xF6E9, symSize: 0x4D }
+  - { offsetInCU: 0x51D8, offset: 0x66CE0, size: 0x8, addend: 0x0, symName: '-[Amplitude enterBackground]', symObjAddr: 0x4896, symBinAddr: 0xF736, symSize: 0x179 }
+  - { offsetInCU: 0x5304, offset: 0x66E0C, size: 0x8, addend: 0x0, symName: '___28-[Amplitude enterBackground]_block_invoke', symObjAddr: 0x4A0F, symBinAddr: 0xF8AF, symSize: 0x16 }
+  - { offsetInCU: 0x5352, offset: 0x66E5A, size: 0x8, addend: 0x0, symName: '___28-[Amplitude enterBackground]_block_invoke_2', symObjAddr: 0x4A25, symBinAddr: 0xF8C5, symSize: 0x41 }
+  - { offsetInCU: 0x53C4, offset: 0x66ECC, size: 0x8, addend: 0x0, symName: '-[Amplitude endBackgroundTaskIfNeeded]', symObjAddr: 0x4A66, symBinAddr: 0xF906, symSize: 0x77 }
+  - { offsetInCU: 0x5448, offset: 0x66F50, size: 0x8, addend: 0x0, symName: '-[Amplitude startOrContinueSessionNSNumber:]', symObjAddr: 0x4ADD, symBinAddr: 0xF97D, symSize: 0xE4 }
+  - { offsetInCU: 0x554C, offset: 0x67054, size: 0x8, addend: 0x0, symName: '-[Amplitude startOrContinueSession:]', symObjAddr: 0x4BC1, symBinAddr: 0xFA61, symSize: 0x58 }
+  - { offsetInCU: 0x55D6, offset: 0x670DE, size: 0x8, addend: 0x0, symName: '-[Amplitude startNewSession:]', symObjAddr: 0x4C19, symBinAddr: 0xFAB9, symSize: 0x9C }
+  - { offsetInCU: 0x56AF, offset: 0x671B7, size: 0x8, addend: 0x0, symName: '-[Amplitude sendSessionEvent:]', symObjAddr: 0x4CB5, symBinAddr: 0xFB55, symSize: 0x11D }
+  - { offsetInCU: 0x57E5, offset: 0x672ED, size: 0x8, addend: 0x0, symName: '-[Amplitude inSession]', symObjAddr: 0x4DD2, symBinAddr: 0xFC72, symSize: 0x11 }
+  - { offsetInCU: 0x581B, offset: 0x67323, size: 0x8, addend: 0x0, symName: '-[Amplitude isWithinMinTimeBetweenSessions:]', symObjAddr: 0x4DE3, symBinAddr: 0xFC83, symSize: 0x9C }
+  - { offsetInCU: 0x5907, offset: 0x6740F, size: 0x8, addend: 0x0, symName: '-[Amplitude setSessionId:]', symObjAddr: 0x4E7F, symBinAddr: 0xFD1F, symSize: 0x19 }
+  - { offsetInCU: 0x5965, offset: 0x6746D, size: 0x8, addend: 0x0, symName: '-[Amplitude refreshSessionTime:]', symObjAddr: 0x4E98, symBinAddr: 0xFD38, symSize: 0x4A }
+  - { offsetInCU: 0x5A02, offset: 0x6750A, size: 0x8, addend: 0x0, symName: '-[Amplitude setPreviousSessionId:]', symObjAddr: 0x4EE2, symBinAddr: 0xFD82, symSize: 0x7E }
+  - { offsetInCU: 0x5AA8, offset: 0x675B0, size: 0x8, addend: 0x0, symName: '-[Amplitude previousSessionId]', symObjAddr: 0x4F60, symBinAddr: 0xFE00, symSize: 0x7B }
+  - { offsetInCU: 0x5B41, offset: 0x67649, size: 0x8, addend: 0x0, symName: '-[Amplitude setLastEventTime:]', symObjAddr: 0x4FDB, symBinAddr: 0xFE7B, symSize: 0x70 }
+  - { offsetInCU: 0x5BE3, offset: 0x676EB, size: 0x8, addend: 0x0, symName: '-[Amplitude lastEventTime]', symObjAddr: 0x504B, symBinAddr: 0xFEEB, symSize: 0x57 }
+  - { offsetInCU: 0x5C47, offset: 0x6774F, size: 0x8, addend: 0x0, symName: '-[Amplitude identify:]', symObjAddr: 0x50A2, symBinAddr: 0xFF42, symSize: 0x14 }
+  - { offsetInCU: 0x5CAB, offset: 0x677B3, size: 0x8, addend: 0x0, symName: '-[Amplitude identify:outOfSession:]', symObjAddr: 0x50B6, symBinAddr: 0xFF56, symSize: 0xDD }
+  - { offsetInCU: 0x5DA6, offset: 0x678AE, size: 0x8, addend: 0x0, symName: '-[Amplitude groupIdentifyWithGroupType:groupName:groupIdentify:]', symObjAddr: 0x5193, symBinAddr: 0x10033, symSize: 0x15 }
+  - { offsetInCU: 0x5E38, offset: 0x67940, size: 0x8, addend: 0x0, symName: '-[Amplitude groupIdentifyWithGroupType:groupName:groupIdentify:outOfSession:]', symObjAddr: 0x51A8, symBinAddr: 0x10048, symSize: 0x16E }
+  - { offsetInCU: 0x5FE5, offset: 0x67AED, size: 0x8, addend: 0x0, symName: '-[Amplitude setUserProperties:]', symObjAddr: 0x5316, symBinAddr: 0x101B6, symSize: 0x102 }
+  - { offsetInCU: 0x60FA, offset: 0x67C02, size: 0x8, addend: 0x0, symName: '___31-[Amplitude setUserProperties:]_block_invoke', symObjAddr: 0x5418, symBinAddr: 0x102B8, symSize: 0x23E }
+  - { offsetInCU: 0x627F, offset: 0x67D87, size: 0x8, addend: 0x0, symName: '-[Amplitude setUserProperties:replace:]', symObjAddr: 0x5656, symBinAddr: 0x104F6, symSize: 0x12 }
+  - { offsetInCU: 0x62EA, offset: 0x67DF2, size: 0x8, addend: 0x0, symName: '-[Amplitude clearUserProperties]', symObjAddr: 0x5668, symBinAddr: 0x10508, symSize: 0x7F }
+  - { offsetInCU: 0x6386, offset: 0x67E8E, size: 0x8, addend: 0x0, symName: '-[Amplitude setGroup:groupName:]', symObjAddr: 0x56E7, symBinAddr: 0x10587, symSize: 0x1A8 }
+  - { offsetInCU: 0x651E, offset: 0x68026, size: 0x8, addend: 0x0, symName: '-[Amplitude setTrackingOptions:]', symObjAddr: 0x588F, symBinAddr: 0x1072F, symSize: 0x139 }
+  - { offsetInCU: 0x6637, offset: 0x6813F, size: 0x8, addend: 0x0, symName: '-[Amplitude enableCoppaControl]', symObjAddr: 0x59C8, symBinAddr: 0x10868, symSize: 0x89 }
+  - { offsetInCU: 0x66AF, offset: 0x681B7, size: 0x8, addend: 0x0, symName: '-[Amplitude disableCoppaControl]', symObjAddr: 0x5A51, symBinAddr: 0x108F1, symSize: 0x6C }
+  - { offsetInCU: 0x6713, offset: 0x6821B, size: 0x8, addend: 0x0, symName: '-[Amplitude setUserId:]', symObjAddr: 0x5ABD, symBinAddr: 0x1095D, symSize: 0x14 }
+  - { offsetInCU: 0x6777, offset: 0x6827F, size: 0x8, addend: 0x0, symName: '-[Amplitude setUserId:startNewSession:]', symObjAddr: 0x5AD1, symBinAddr: 0x10971, symSize: 0xD9 }
+  - { offsetInCU: 0x6858, offset: 0x68360, size: 0x8, addend: 0x0, symName: '___39-[Amplitude setUserId:startNewSession:]_block_invoke', symObjAddr: 0x5BAA, symBinAddr: 0x10A4A, symSize: 0x185 }
+  - { offsetInCU: 0x69CC, offset: 0x684D4, size: 0x8, addend: 0x0, symName: '-[Amplitude setOptOut:]', symObjAddr: 0x5D2F, symBinAddr: 0x10BCF, symSize: 0x52 }
+  - { offsetInCU: 0x6A2D, offset: 0x68535, size: 0x8, addend: 0x0, symName: '___23-[Amplitude setOptOut:]_block_invoke', symObjAddr: 0x5D81, symBinAddr: 0x10C21, symSize: 0x83 }
+  - { offsetInCU: 0x6AF0, offset: 0x685F8, size: 0x8, addend: 0x0, symName: '-[Amplitude setOffline:]', symObjAddr: 0x5E04, symBinAddr: 0x10CA4, symSize: 0x1B }
+  - { offsetInCU: 0x6B3D, offset: 0x68645, size: 0x8, addend: 0x0, symName: '-[Amplitude setServerUrl:]', symObjAddr: 0x5E1F, symBinAddr: 0x10CBF, symSize: 0x78 }
+  - { offsetInCU: 0x6BD2, offset: 0x686DA, size: 0x8, addend: 0x0, symName: '-[Amplitude setContentTypeHeader:]', symObjAddr: 0x5E97, symBinAddr: 0x10D37, symSize: 0x14 }
+  - { offsetInCU: 0x6C15, offset: 0x6871D, size: 0x8, addend: 0x0, symName: '-[Amplitude getContentTypeHeader]', symObjAddr: 0x5EAB, symBinAddr: 0x10D4B, symSize: 0x12 }
+  - { offsetInCU: 0x6C60, offset: 0x68768, size: 0x8, addend: 0x0, symName: '-[Amplitude setBearerToken:]', symObjAddr: 0x5EBD, symBinAddr: 0x10D5D, symSize: 0x78 }
+  - { offsetInCU: 0x6CF5, offset: 0x687FD, size: 0x8, addend: 0x0, symName: '-[Amplitude setEventUploadMaxBatchSize:]', symObjAddr: 0x5F35, symBinAddr: 0x10DD5, symSize: 0xF }
+  - { offsetInCU: 0x6D36, offset: 0x6883E, size: 0x8, addend: 0x0, symName: '-[Amplitude optOut]', symObjAddr: 0x5F44, symBinAddr: 0x10DE4, symSize: 0x75 }
+  - { offsetInCU: 0x6DBA, offset: 0x688C2, size: 0x8, addend: 0x0, symName: '-[Amplitude setDeviceId:]', symObjAddr: 0x5FB9, symBinAddr: 0x10E59, symSize: 0xA2 }
+  - { offsetInCU: 0x6E77, offset: 0x6897F, size: 0x8, addend: 0x0, symName: '___25-[Amplitude setDeviceId:]_block_invoke', symObjAddr: 0x605B, symBinAddr: 0x10EFB, symSize: 0x6A }
+  - { offsetInCU: 0x6EF6, offset: 0x689FE, size: 0x8, addend: 0x0, symName: '-[Amplitude regenerateDeviceId]', symObjAddr: 0x60C5, symBinAddr: 0x10F65, symSize: 0x4C }
+  - { offsetInCU: 0x6F46, offset: 0x68A4E, size: 0x8, addend: 0x0, symName: '___31-[Amplitude regenerateDeviceId]_block_invoke', symObjAddr: 0x6111, symBinAddr: 0x10FB1, symSize: 0x54 }
+  - { offsetInCU: 0x6FBC, offset: 0x68AC4, size: 0x8, addend: 0x0, symName: '-[Amplitude useAdvertisingIdForDeviceId]', symObjAddr: 0x6165, symBinAddr: 0x11005, symSize: 0xA }
+  - { offsetInCU: 0x6FEE, offset: 0x68AF6, size: 0x8, addend: 0x0, symName: '-[Amplitude getAdSupportID]', symObjAddr: 0x616F, symBinAddr: 0x1100F, symSize: 0xBE }
+  - { offsetInCU: 0x70B7, offset: 0x68BBF, size: 0x8, addend: 0x0, symName: '-[Amplitude getDeviceId]', symObjAddr: 0x622D, symBinAddr: 0x110CD, symSize: 0x12 }
+  - { offsetInCU: 0x7102, offset: 0x68C0A, size: 0x8, addend: 0x0, symName: '-[Amplitude getSessionId]', symObjAddr: 0x623F, symBinAddr: 0x110DF, symSize: 0xD }
+  - { offsetInCU: 0x7138, offset: 0x68C40, size: 0x8, addend: 0x0, symName: '-[Amplitude initializeDeviceId]', symObjAddr: 0x624C, symBinAddr: 0x110EC, symSize: 0x178 }
+  - { offsetInCU: 0x72B3, offset: 0x68DBB, size: 0x8, addend: 0x0, symName: '-[Amplitude _getDeviceId]', symObjAddr: 0x63C4, symBinAddr: 0x11264, symSize: 0xD5 }
+  - { offsetInCU: 0x7360, offset: 0x68E68, size: 0x8, addend: 0x0, symName: '-[Amplitude isValidDeviceId:]', symObjAddr: 0x6499, symBinAddr: 0x11339, symSize: 0xA8 }
+  - { offsetInCU: 0x742F, offset: 0x68F37, size: 0x8, addend: 0x0, symName: '-[Amplitude replaceWithEmptyJSON:]', symObjAddr: 0x6541, symBinAddr: 0x113E1, symSize: 0x57 }
+  - { offsetInCU: 0x74BD, offset: 0x68FC5, size: 0x8, addend: 0x0, symName: '-[Amplitude truncate:]', symObjAddr: 0x6598, symBinAddr: 0x11438, symSize: 0x5ED }
+  - { offsetInCU: 0x7980, offset: 0x69488, size: 0x8, addend: 0x0, symName: '-[Amplitude isArgument:validType:methodName:]', symObjAddr: 0x6B85, symBinAddr: 0x11A25, symSize: 0x8A }
+  - { offsetInCU: 0x7A67, offset: 0x6956F, size: 0x8, addend: 0x0, symName: '-[Amplitude md5HexDigest:]', symObjAddr: 0x6C0F, symBinAddr: 0x11AAF, symSize: 0xCE }
+  - { offsetInCU: 0x7B67, offset: 0x6966F, size: 0x8, addend: 0x0, symName: '-[Amplitude urlEncodeString:]', symObjAddr: 0x6CDD, symBinAddr: 0x11B7D, symSize: 0xAC }
+  - { offsetInCU: 0x7C2E, offset: 0x69736, size: 0x8, addend: 0x0, symName: '-[Amplitude currentTime]', symObjAddr: 0x6D89, symBinAddr: 0x11C29, symSize: 0x19 }
+  - { offsetInCU: 0x7C6E, offset: 0x69776, size: 0x8, addend: 0x0, symName: '-[Amplitude printEventsCount]', symObjAddr: 0x6DA2, symBinAddr: 0x11C42, symSize: 0x6 }
+  - { offsetInCU: 0x7C9E, offset: 0x697A6, size: 0x8, addend: 0x0, symName: '-[Amplitude upgradePrefs]', symObjAddr: 0x6DA8, symBinAddr: 0x11C48, symSize: 0xF7 }
+  - { offsetInCU: 0x7DE3, offset: 0x698EB, size: 0x8, addend: 0x0, symName: '-[Amplitude savePropertyList]', symObjAddr: 0x6E9F, symBinAddr: 0x11D3F, symSize: 0x7B }
+  - { offsetInCU: 0x7E6F, offset: 0x69977, size: 0x8, addend: 0x0, symName: '-[Amplitude deserializePList:]', symObjAddr: 0x6F1A, symBinAddr: 0x11DBA, symSize: 0x1C2 }
+  - { offsetInCU: 0x8049, offset: 0x69B51, size: 0x8, addend: 0x0, symName: '-[Amplitude serializePList:toFile:]', symObjAddr: 0x70DC, symBinAddr: 0x11F7C, symSize: 0xE6 }
+  - { offsetInCU: 0x8167, offset: 0x69C6F, size: 0x8, addend: 0x0, symName: '-[Amplitude unarchive:]', symObjAddr: 0x71C2, symBinAddr: 0x12062, symSize: 0x1A5 }
+  - { offsetInCU: 0x8314, offset: 0x69E1C, size: 0x8, addend: 0x0, symName: '-[Amplitude unarchive:error:]', symObjAddr: 0x7367, symBinAddr: 0x12207, symSize: 0xAA }
+  - { offsetInCU: 0x83B7, offset: 0x69EBF, size: 0x8, addend: 0x0, symName: '-[Amplitude archive:toFile:]', symObjAddr: 0x7411, symBinAddr: 0x122B1, symSize: 0x16C }
+  - { offsetInCU: 0x852A, offset: 0x6A032, size: 0x8, addend: 0x0, symName: '-[Amplitude moveFileIfNotExists:to:]', symObjAddr: 0x757D, symBinAddr: 0x1241D, symSize: 0x115 }
+  - { offsetInCU: 0x86B1, offset: 0x6A1B9, size: 0x8, addend: 0x0, symName: '-[Amplitude apiKey]', symObjAddr: 0x7692, symBinAddr: 0x12532, symSize: 0xD }
+  - { offsetInCU: 0x86E6, offset: 0x6A1EE, size: 0x8, addend: 0x0, symName: '-[Amplitude setApiKey:]', symObjAddr: 0x769F, symBinAddr: 0x1253F, symSize: 0xF }
+  - { offsetInCU: 0x8725, offset: 0x6A22D, size: 0x8, addend: 0x0, symName: '-[Amplitude userId]', symObjAddr: 0x76AE, symBinAddr: 0x1254E, symSize: 0xD }
+  - { offsetInCU: 0x875A, offset: 0x6A262, size: 0x8, addend: 0x0, symName: '-[Amplitude deviceId]', symObjAddr: 0x76BB, symBinAddr: 0x1255B, symSize: 0xD }
+  - { offsetInCU: 0x878F, offset: 0x6A297, size: 0x8, addend: 0x0, symName: '-[Amplitude instanceName]', symObjAddr: 0x76C8, symBinAddr: 0x12568, symSize: 0xD }
+  - { offsetInCU: 0x87C4, offset: 0x6A2CC, size: 0x8, addend: 0x0, symName: '-[Amplitude setInstanceName:]', symObjAddr: 0x76D5, symBinAddr: 0x12575, symSize: 0xF }
+  - { offsetInCU: 0x8803, offset: 0x6A30B, size: 0x8, addend: 0x0, symName: '-[Amplitude propertyListPath]', symObjAddr: 0x76E4, symBinAddr: 0x12584, symSize: 0xD }
+  - { offsetInCU: 0x8838, offset: 0x6A340, size: 0x8, addend: 0x0, symName: '-[Amplitude useDynamicConfig]', symObjAddr: 0x76F1, symBinAddr: 0x12591, symSize: 0x9 }
+  - { offsetInCU: 0x886D, offset: 0x6A375, size: 0x8, addend: 0x0, symName: '-[Amplitude setUseDynamicConfig:]', symObjAddr: 0x76FA, symBinAddr: 0x1259A, symSize: 0x9 }
+  - { offsetInCU: 0x88AA, offset: 0x6A3B2, size: 0x8, addend: 0x0, symName: '-[Amplitude eventUploadThreshold]', symObjAddr: 0x7703, symBinAddr: 0x125A3, symSize: 0x9 }
+  - { offsetInCU: 0x88DF, offset: 0x6A3E7, size: 0x8, addend: 0x0, symName: '-[Amplitude setEventUploadThreshold:]', symObjAddr: 0x770C, symBinAddr: 0x125AC, symSize: 0x9 }
+  - { offsetInCU: 0x891C, offset: 0x6A424, size: 0x8, addend: 0x0, symName: '-[Amplitude eventUploadMaxBatchSize]', symObjAddr: 0x7715, symBinAddr: 0x125B5, symSize: 0x9 }
+  - { offsetInCU: 0x8951, offset: 0x6A459, size: 0x8, addend: 0x0, symName: '-[Amplitude eventMaxCount]', symObjAddr: 0x771E, symBinAddr: 0x125BE, symSize: 0x9 }
+  - { offsetInCU: 0x8986, offset: 0x6A48E, size: 0x8, addend: 0x0, symName: '-[Amplitude setEventMaxCount:]', symObjAddr: 0x7727, symBinAddr: 0x125C7, symSize: 0x9 }
+  - { offsetInCU: 0x89C3, offset: 0x6A4CB, size: 0x8, addend: 0x0, symName: '-[Amplitude eventUploadPeriodSeconds]', symObjAddr: 0x7730, symBinAddr: 0x125D0, symSize: 0x9 }
+  - { offsetInCU: 0x89F8, offset: 0x6A500, size: 0x8, addend: 0x0, symName: '-[Amplitude setEventUploadPeriodSeconds:]', symObjAddr: 0x7739, symBinAddr: 0x125D9, symSize: 0x9 }
+  - { offsetInCU: 0x8A35, offset: 0x6A53D, size: 0x8, addend: 0x0, symName: '-[Amplitude minTimeBetweenSessionsMillis]', symObjAddr: 0x7742, symBinAddr: 0x125E2, symSize: 0xD }
+  - { offsetInCU: 0x8A6A, offset: 0x6A572, size: 0x8, addend: 0x0, symName: '-[Amplitude setMinTimeBetweenSessionsMillis:]', symObjAddr: 0x774F, symBinAddr: 0x125EF, symSize: 0xD }
+  - { offsetInCU: 0x8AA7, offset: 0x6A5AF, size: 0x8, addend: 0x0, symName: '-[Amplitude trackingSessionEvents]', symObjAddr: 0x775C, symBinAddr: 0x125FC, symSize: 0x9 }
+  - { offsetInCU: 0x8ADC, offset: 0x6A5E4, size: 0x8, addend: 0x0, symName: '-[Amplitude setTrackingSessionEvents:]', symObjAddr: 0x7765, symBinAddr: 0x12605, symSize: 0x9 }
+  - { offsetInCU: 0x8B19, offset: 0x6A621, size: 0x8, addend: 0x0, symName: '-[Amplitude libraryName]', symObjAddr: 0x776E, symBinAddr: 0x1260E, symSize: 0xD }
+  - { offsetInCU: 0x8B4E, offset: 0x6A656, size: 0x8, addend: 0x0, symName: '-[Amplitude setLibraryName:]', symObjAddr: 0x777B, symBinAddr: 0x1261B, symSize: 0xF }
+  - { offsetInCU: 0x8B8D, offset: 0x6A695, size: 0x8, addend: 0x0, symName: '-[Amplitude libraryVersion]', symObjAddr: 0x778A, symBinAddr: 0x1262A, symSize: 0xD }
+  - { offsetInCU: 0x8BC2, offset: 0x6A6CA, size: 0x8, addend: 0x0, symName: '-[Amplitude setLibraryVersion:]', symObjAddr: 0x7797, symBinAddr: 0x12637, symSize: 0xF }
+  - { offsetInCU: 0x8C01, offset: 0x6A709, size: 0x8, addend: 0x0, symName: '-[Amplitude adSupportBlock]', symObjAddr: 0x77A6, symBinAddr: 0x12646, symSize: 0xD }
+  - { offsetInCU: 0x8C36, offset: 0x6A73E, size: 0x8, addend: 0x0, symName: '-[Amplitude setAdSupportBlock:]', symObjAddr: 0x77B3, symBinAddr: 0x12653, symSize: 0xF }
+  - { offsetInCU: 0x8C75, offset: 0x6A77D, size: 0x8, addend: 0x0, symName: '-[Amplitude locationInfoBlock]', symObjAddr: 0x77C2, symBinAddr: 0x12662, symSize: 0xD }
+  - { offsetInCU: 0x8CAA, offset: 0x6A7B2, size: 0x8, addend: 0x0, symName: '-[Amplitude setLocationInfoBlock:]', symObjAddr: 0x77CF, symBinAddr: 0x1266F, symSize: 0xF }
+  - { offsetInCU: 0x8CE9, offset: 0x6A7F1, size: 0x8, addend: 0x0, symName: '-[Amplitude contentTypeHeader]', symObjAddr: 0x77DE, symBinAddr: 0x1267E, symSize: 0xD }
+  - { offsetInCU: 0x8D1E, offset: 0x6A826, size: 0x8, addend: 0x0, symName: '-[Amplitude backgroundQueue]', symObjAddr: 0x77EB, symBinAddr: 0x1268B, symSize: 0xD }
+  - { offsetInCU: 0x8D53, offset: 0x6A85B, size: 0x8, addend: 0x0, symName: '-[Amplitude setBackgroundQueue:]', symObjAddr: 0x77F8, symBinAddr: 0x12698, symSize: 0x14 }
+  - { offsetInCU: 0x8D92, offset: 0x6A89A, size: 0x8, addend: 0x0, symName: '-[Amplitude initializerQueue]', symObjAddr: 0x780C, symBinAddr: 0x126AC, symSize: 0xD }
+  - { offsetInCU: 0x8DC7, offset: 0x6A8CF, size: 0x8, addend: 0x0, symName: '-[Amplitude setInitializerQueue:]', symObjAddr: 0x7819, symBinAddr: 0x126B9, symSize: 0x14 }
+  - { offsetInCU: 0x8E06, offset: 0x6A90E, size: 0x8, addend: 0x0, symName: '-[Amplitude dbHelper]', symObjAddr: 0x782D, symBinAddr: 0x126CD, symSize: 0xD }
+  - { offsetInCU: 0x8E3B, offset: 0x6A943, size: 0x8, addend: 0x0, symName: '-[Amplitude setDbHelper:]', symObjAddr: 0x783A, symBinAddr: 0x126DA, symSize: 0x14 }
+  - { offsetInCU: 0x8E7A, offset: 0x6A982, size: 0x8, addend: 0x0, symName: '-[Amplitude initialized]', symObjAddr: 0x784E, symBinAddr: 0x126EE, symSize: 0x9 }
+  - { offsetInCU: 0x8EAF, offset: 0x6A9B7, size: 0x8, addend: 0x0, symName: '-[Amplitude setInitialized:]', symObjAddr: 0x7857, symBinAddr: 0x126F7, symSize: 0x9 }
+  - { offsetInCU: 0x8EEC, offset: 0x6A9F4, size: 0x8, addend: 0x0, symName: '-[Amplitude sslPinningEnabled]', symObjAddr: 0x7860, symBinAddr: 0x12700, symSize: 0x9 }
+  - { offsetInCU: 0x8F21, offset: 0x6AA29, size: 0x8, addend: 0x0, symName: '-[Amplitude setSslPinningEnabled:]', symObjAddr: 0x7869, symBinAddr: 0x12709, symSize: 0x9 }
+  - { offsetInCU: 0x8F5E, offset: 0x6AA66, size: 0x8, addend: 0x0, symName: '-[Amplitude sessionId]', symObjAddr: 0x7872, symBinAddr: 0x12712, symSize: 0xD }
+  - { offsetInCU: 0x8F93, offset: 0x6AA9B, size: 0x8, addend: 0x0, symName: '-[Amplitude backoffUpload]', symObjAddr: 0x787F, symBinAddr: 0x1271F, symSize: 0x9 }
+  - { offsetInCU: 0x8FC8, offset: 0x6AAD0, size: 0x8, addend: 0x0, symName: '-[Amplitude setBackoffUpload:]', symObjAddr: 0x7888, symBinAddr: 0x12728, symSize: 0x9 }
+  - { offsetInCU: 0x9005, offset: 0x6AB0D, size: 0x8, addend: 0x0, symName: '-[Amplitude backoffUploadBatchSize]', symObjAddr: 0x7891, symBinAddr: 0x12731, symSize: 0xC }
+  - { offsetInCU: 0x903A, offset: 0x6AB42, size: 0x8, addend: 0x0, symName: '-[Amplitude setBackoffUploadBatchSize:]', symObjAddr: 0x789D, symBinAddr: 0x1273D, symSize: 0xC }
+  - { offsetInCU: 0x9077, offset: 0x6AB7F, size: 0x8, addend: 0x0, symName: '-[Amplitude .cxx_destruct]', symObjAddr: 0x78A9, symBinAddr: 0x12749, symSize: 0x127 }
+...
