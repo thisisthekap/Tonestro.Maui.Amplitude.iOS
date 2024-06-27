@@ -26,11 +26,25 @@ steps:
     fi
 
 - bash: |
-    cd Tonestro.Maui.Amplitude.iOS
+    sudo xcodes select
+  displayName: "select xcode version"
+
+- bash: |
+    cd native
+    ./create-xcframework.sh
+    cd ..
+  displayName: Create xcframework folder
+
+- bash: |
     sudo dotnet workload restore
+  displayName: Restore workloads
+
+- bash: |
+    cd Tonestro.Maui.Amplitude.iOS
     dotnet restore
     dotnet build --configuration Release
     dotnet pack --configuration Release
+  displayName: Build and pack
 
 - bash: |
     dotnet nuget push Tonestro.Maui.Amplitude.iOS/nugetoutput/Tonestro.Maui.Amplitude.iOS.*.nupkg -k "$(nugetOrgApiKey)" -s https://api.nuget.org/v3/index.json

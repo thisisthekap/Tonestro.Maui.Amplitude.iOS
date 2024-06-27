@@ -44,25 +44,18 @@ Add `-gcc_flags "-ObjC"` to the `MtouchExtraArgs` XML element of your project fi
 
 This section explains how to create resp. adapt the bindings to bind to a newer version of Amplitude for iOS.
 
-### Build static library
+### Create xcframework
 
-1. `cd nativelib`
-2. Set the desired version of Amplitude for iOS in `prepare-library-build.sh`
-3. Execute `./prepare-library-build.sh`
-4. Right click "Amplitude" to add files:
-	* ![howto-1](readme-images/howto-1.png)
-5. Select everything in the "Amplitude" folder, and make sure that the settings are configured as described:
-	* ![howto-2](readme-images/howto-2.png)
-6. Press "Add"
-7. Close XCode
-8. Execute `./finish-library-build.sh`
+1. `cd native`
+2. Set the desired version of Amplitude for iOS in `Cartfile`
+3. Execute `./create-xcframework.sh`
 
-After these steps, a new static library was built and moved to `Tonestro.Maui.Amplitude.iOS/nativelib/libPurchases.a`. This file is referenced as `NativeReference` in `Tonestro.Maui.Amplitude.iOS.csproj`.
+After these steps, a xcframework was created in `native`. This xcframework is referenced as `NativeReference` in `Tonestro.Maui.Amplitude.iOS.csproj`.
 
 ### Create C# Bindings using Objective Sharpie
 
 This section describes how to create `ApiBindings.cs`.
 
-1. `cd sharpie`
+1. `cd native`
 2. Execute `./generate-bindings.sh`
 3. Copy `ApiBindings.cs` to `../Tonestro.Maui.Amplitude.iOS`
