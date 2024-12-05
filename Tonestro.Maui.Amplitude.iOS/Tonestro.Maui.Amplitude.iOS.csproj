@@ -8,12 +8,16 @@
   <PropertyGroup>
     <IsPackable>true</IsPackable>
     <PackageId>Tonestro.Maui.Amplitude.iOS</PackageId>
-    <Version>8.2.1.6</Version>
+    <Version>8.2.1.7</Version>
     <Description>Contains bindings for https://developers.amplitude.com/docs/ios</Description>
-    <Authors>Christian Kapplmüller</Authors>
+    <Authors>Christian Kapplmüller, Albilaga Linggra Pradana</Authors>
     <Company>fun.music IT GmbH</Company>
     <PackageOutputPath>nugetoutput</PackageOutputPath>
     <PackageLicensePath>..\LICENSE.txt</PackageLicensePath>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <EmbedAllSources>true</EmbedAllSources>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
